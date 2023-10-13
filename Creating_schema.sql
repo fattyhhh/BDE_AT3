@@ -144,4 +144,4 @@ create table if not exists census_g01 (
 	count_persons_other_dwgs_p int null
 	);
 
-create if not exists census_g02
+create table if not exists census_g02
