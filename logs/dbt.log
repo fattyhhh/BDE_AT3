@@ -55,3 +55,2501 @@ Happy modeling!
 [0m20:33:52.252708 [debug] [MainThread]: Command `dbt init` succeeded at 20:33:52.250705 after 44.65 seconds
 [0m20:33:52.252708 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200052BA390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200052FF390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000200052FFF50>]}
 [0m20:33:52.252708 [debug] [MainThread]: Flushing usage events
+[0m22:11:53.558825 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002425819FEB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002425B0C3D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002425B0C37F0>]}
+
+
+============================== 22:11:53.561831 | e4ff714d-91eb-4f9f-9616-6f6eae6b4a20 ==============================
+[0m22:11:53.561831 [info ] [MainThread]: Running with dbt=1.6.6
+[0m22:11:53.561831 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\htw10\\OneDrive\\Documents_chinese\\GitHub\\BDE_AT3\\logs', 'debug': 'False', 'profiles_dir': 'C:\\Users\\htw10\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:11:53.563831 [info ] [MainThread]: Setting up your profile.
+[0m22:12:03.497145 [debug] [MainThread]: Command `dbt init` succeeded at 22:12:03.497145 after 9.96 seconds
+[0m22:12:03.498145 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002425819FEB0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002425B0C3820>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002425B0C3D60>]}
+[0m22:12:03.498145 [debug] [MainThread]: Flushing usage events
+[0m22:25:39.769578 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001930752BE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001930A423DC0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001930A423850>]}
+
+
+============================== 22:25:39.772576 | 66d7c0d4-9800-4dcd-b71d-fffdd879e1a8 ==============================
+[0m22:25:39.772576 [info ] [MainThread]: Running with dbt=1.6.6
+[0m22:25:39.773576 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\htw10\\.dbt', 'debug': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\htw10\\OneDrive\\Documents_chinese\\GitHub\\BDE_AT3\\logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m22:25:39.773576 [info ] [MainThread]: dbt version: 1.6.6
+[0m22:25:39.773576 [info ] [MainThread]: python version: 3.10.9
+[0m22:25:39.775081 [info ] [MainThread]: python path: C:\Users\htw10\anaconda3\python.exe
+[0m22:25:39.775081 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m22:25:39.779088 [info ] [MainThread]: Error importing adapter: No module named 'dbt.adapters.postgres'
+[0m22:25:39.779088 [info ] [MainThread]: Using profiles dir at C:\Users\htw10\.dbt
+[0m22:25:39.780087 [info ] [MainThread]: Using profiles.yml file at C:\Users\htw10\.dbt\profiles.yml
+[0m22:25:39.780087 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\htw10\OneDrive\Documents_chinese\GitHub\BDE_AT3\dbt_project.yml
+[0m22:25:39.796108 [info ] [MainThread]: Configuration:
+[0m22:25:39.796108 [info ] [MainThread]:   profiles.yml file [[31mERROR invalid[0m]
+[0m22:25:39.797108 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m22:25:39.797108 [info ] [MainThread]: Required dependencies:
+[0m22:25:39.798110 [debug] [MainThread]: Executing "git --help"
+[0m22:25:39.817131 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:25:39.817131 [debug] [MainThread]: STDERR: "b''"
+[0m22:25:39.818131 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:25:39.818131 [info ] [MainThread]: Connection test skipped since no profile was found
+[0m22:25:39.819133 [info ] [MainThread]: [31m1 check failed:[0m
+[0m22:25:39.819133 [info ] [MainThread]: Profile loading failed for the following reason:
+Runtime Error
+  Credentials in profile "bde_at3", target "dev" invalid: Runtime Error
+    Could not find adapter type postgres!
+
+
+[0m22:25:39.820133 [debug] [MainThread]: Command `dbt debug` failed at 22:25:39.820133 after 0.07 seconds
+[0m22:25:39.821134 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001930752BE80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001930A423D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001930A48A200>]}
+[0m22:25:39.821134 [debug] [MainThread]: Flushing usage events
+[0m22:26:59.512386 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000143A9CE0350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000143A9CCC410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000143A9CDFFD0>]}
+
+
+============================== 22:26:59.515889 | 2eca8998-9bdd-4ed0-a13e-952bbde34f5b ==============================
+[0m22:26:59.515889 [info ] [MainThread]: Running with dbt=1.6.6
+[0m22:26:59.515889 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\htw10\\.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\htw10\\OneDrive\\Documents_chinese\\GitHub\\BDE_AT3\\logs', 'fail_fast': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'invocation_command': 'dbt debug', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:26:59.516893 [info ] [MainThread]: dbt version: 1.6.6
+[0m22:26:59.516893 [info ] [MainThread]: python version: 3.11.5
+[0m22:26:59.517893 [info ] [MainThread]: python path: C:\Users\htw10\OneDrive\Documents_chinese\GitHub\BDE_AT3\.conda\python.exe
+[0m22:26:59.517893 [info ] [MainThread]: os info: Windows-10-10.0.22621-SP0
+[0m22:26:59.571497 [info ] [MainThread]: Using profiles dir at C:\Users\htw10\.dbt
+[0m22:26:59.571497 [info ] [MainThread]: Using profiles.yml file at C:\Users\htw10\.dbt\profiles.yml
+[0m22:26:59.572857 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\htw10\OneDrive\Documents_chinese\GitHub\BDE_AT3\dbt_project.yml
+[0m22:26:59.573862 [info ] [MainThread]: adapter type: postgres
+[0m22:26:59.573862 [info ] [MainThread]: adapter version: 1.6.6
+[0m22:26:59.587383 [info ] [MainThread]: Configuration:
+[0m22:26:59.587383 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m22:26:59.588383 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m22:26:59.588383 [info ] [MainThread]: Required dependencies:
+[0m22:26:59.589384 [debug] [MainThread]: Executing "git --help"
+[0m22:26:59.607084 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--config-env=<name>=<envvar>] <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m22:26:59.608085 [debug] [MainThread]: STDERR: "b''"
+[0m22:26:59.608085 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m22:26:59.609083 [info ] [MainThread]: Connection:
+[0m22:26:59.609083 [info ] [MainThread]:   host: 34.87.226.94
+[0m22:26:59.610083 [info ] [MainThread]:   port: 5432
+[0m22:26:59.610083 [info ] [MainThread]:   user: postgres
+[0m22:26:59.610083 [info ] [MainThread]:   database: postgres
+[0m22:26:59.611084 [info ] [MainThread]:   schema: public
+[0m22:26:59.611084 [info ] [MainThread]:   connect_timeout: 10
+[0m22:26:59.611084 [info ] [MainThread]:   role: None
+[0m22:26:59.612084 [info ] [MainThread]:   search_path: None
+[0m22:26:59.612084 [info ] [MainThread]:   keepalives_idle: 0
+[0m22:26:59.612084 [info ] [MainThread]:   sslmode: None
+[0m22:26:59.613084 [info ] [MainThread]:   sslcert: None
+[0m22:26:59.613084 [info ] [MainThread]:   sslkey: None
+[0m22:26:59.613084 [info ] [MainThread]:   sslrootcert: None
+[0m22:26:59.614086 [info ] [MainThread]:   application_name: dbt
+[0m22:26:59.614086 [info ] [MainThread]:   retries: 1
+[0m22:26:59.615084 [info ] [MainThread]: Registered adapter: postgres=1.6.6
+[0m22:26:59.615084 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m22:26:59.615589 [debug] [MainThread]: Using postgres connection "debug"
+[0m22:26:59.615589 [debug] [MainThread]: On debug: select 1 as id
+[0m22:26:59.615589 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:26:59.695342 [debug] [MainThread]: SQL status: SELECT 1 in 0.0 seconds
+[0m22:26:59.696433 [debug] [MainThread]: On debug: Close
+[0m22:26:59.697435 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m22:26:59.698434 [info ] [MainThread]: [32mAll checks passed![0m
+[0m22:26:59.699443 [debug] [MainThread]: Command `dbt debug` succeeded at 22:26:59.699443 after 0.20 seconds
+[0m22:26:59.700405 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m22:26:59.700405 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000143A2F4C1D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000143A7759E90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000143A32A9510>]}
+[0m22:26:59.701360 [debug] [MainThread]: Flushing usage events
+[0m22:27:27.849575 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021275C5F1D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021272F33310>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021275C5FE50>]}
+
+
+============================== 22:27:27.852574 | c81debf6-d1bb-402b-a061-b2b6e0a3d41d ==============================
+[0m22:27:27.852574 [info ] [MainThread]: Running with dbt=1.6.6
+[0m22:27:27.852574 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\htw10\\.dbt', 'log_path': 'C:\\Users\\htw10\\OneDrive\\Documents_chinese\\GitHub\\BDE_AT3\\logs', 'version_check': 'True', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt snapshot', 'introspect': 'True', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m22:27:27.933270 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'c81debf6-d1bb-402b-a061-b2b6e0a3d41d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021275C5F610>]}
+[0m22:27:27.942778 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'c81debf6-d1bb-402b-a061-b2b6e0a3d41d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021275C4F750>]}
+[0m22:27:27.944281 [info ] [MainThread]: Registered adapter: postgres=1.6.6
+[0m22:27:27.955110 [debug] [MainThread]: checksum: 546b81fb56652c304d87abd676e84d4737d8a0c6b62160f4a6e79dcddbc842bb, vars: {}, profile: , target: , version: 1.6.6
+[0m22:27:27.955110 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m22:27:27.956113 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'c81debf6-d1bb-402b-a061-b2b6e0a3d41d', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021275D3EDD0>]}
+[0m22:27:28.678922 [error] [MainThread]: Encountered an error:
+Compilation Error in snapshot host_snapshot (snapshots\host_snapshot.sql)
+  expected token ',', got 'unique_key'
+    line 7
+      unique_key = 'host_id'
+[0m22:27:28.679927 [debug] [MainThread]: Command `dbt snapshot` failed at 22:27:28.679927 after 0.85 seconds
+[0m22:27:28.679927 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002126F00A390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021275D59F90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021275D61E50>]}
+[0m22:27:28.680980 [debug] [MainThread]: Flushing usage events
+[0m22:28:04.165103 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231660FF190>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023165F1FD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231660EC350>]}
+
+
+============================== 22:28:04.168107 | 6c289ebd-6ca8-4ff6-96e1-7b25c89dc8db ==============================
+[0m22:28:04.168107 [info ] [MainThread]: Running with dbt=1.6.6
+[0m22:28:04.169106 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'fail_fast': 'False', 'log_path': 'C:\\Users\\htw10\\OneDrive\\Documents_chinese\\GitHub\\BDE_AT3\\logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\htw10\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt snapshot', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:28:04.227875 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '6c289ebd-6ca8-4ff6-96e1-7b25c89dc8db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002316611E6D0>]}
+[0m22:28:04.236377 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '6c289ebd-6ca8-4ff6-96e1-7b25c89dc8db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231660FFC90>]}
+[0m22:28:04.237377 [info ] [MainThread]: Registered adapter: postgres=1.6.6
+[0m22:28:04.242880 [debug] [MainThread]: checksum: 546b81fb56652c304d87abd676e84d4737d8a0c6b62160f4a6e79dcddbc842bb, vars: {}, profile: , target: , version: 1.6.6
+[0m22:28:04.242880 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m22:28:04.243883 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '6c289ebd-6ca8-4ff6-96e1-7b25c89dc8db', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231661DEDD0>]}
+[0m22:28:04.605327 [error] [MainThread]: Encountered an error:
+Parsing Error
+  at path []: A snapshot configured with the timestamp strategy must specify an updated_at configuration.
+[0m22:28:04.606578 [debug] [MainThread]: Command `dbt snapshot` failed at 22:28:04.606578 after 0.45 seconds
+[0m22:28:04.607578 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002315F45A390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231660ECB50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000231660EC350>]}
+[0m22:28:04.607578 [debug] [MainThread]: Flushing usage events
+[0m22:28:30.412373 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027635A7F9D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027635A6DC10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002763589FD50>]}
+
+
+============================== 22:28:30.414371 | a12ae11e-9952-4a78-be5e-8335d425763e ==============================
+[0m22:28:30.414371 [info ] [MainThread]: Running with dbt=1.6.6
+[0m22:28:30.415371 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'False', 'log_path': 'C:\\Users\\htw10\\OneDrive\\Documents_chinese\\GitHub\\BDE_AT3\\logs', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\htw10\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt snapshot', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:28:30.478631 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a12ae11e-9952-4a78-be5e-8335d425763e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027635B5F590>]}
+[0m22:28:30.487688 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a12ae11e-9952-4a78-be5e-8335d425763e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027635B78610>]}
+[0m22:28:30.489121 [info ] [MainThread]: Registered adapter: postgres=1.6.6
+[0m22:28:30.495125 [debug] [MainThread]: checksum: 546b81fb56652c304d87abd676e84d4737d8a0c6b62160f4a6e79dcddbc842bb, vars: {}, profile: , target: , version: 1.6.6
+[0m22:28:30.495125 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m22:28:30.496276 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'a12ae11e-9952-4a78-be5e-8335d425763e', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027635A7EDD0>]}
+[0m22:28:30.858419 [error] [MainThread]: Encountered an error:
+Parsing Error
+  at path ['updated_at']: ['host_id', 'host_name'] is not valid under any of the given schemas
+[0m22:28:30.859420 [debug] [MainThread]: Command `dbt snapshot` failed at 22:28:30.858419 after 0.46 seconds
+[0m22:28:30.859420 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002762ED7A390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027635A82BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027635A81F90>]}
+[0m22:28:30.859420 [debug] [MainThread]: Flushing usage events
+[0m22:28:51.402954 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E990AB0350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E990AB1BD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E990AB3190>]}
+
+
+============================== 22:28:51.405458 | 9ad1f500-e5d5-4073-8938-793e8bf5b131 ==============================
+[0m22:28:51.405458 [info ] [MainThread]: Running with dbt=1.6.6
+[0m22:28:51.406460 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'C:\\Users\\htw10\\OneDrive\\Documents_chinese\\GitHub\\BDE_AT3\\logs', 'profiles_dir': 'C:\\Users\\htw10\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt snapshot', 'send_anonymous_usage_stats': 'True'}
+[0m22:28:51.465905 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '9ad1f500-e5d5-4073-8938-793e8bf5b131', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E990B8F110>]}
+[0m22:28:51.473908 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '9ad1f500-e5d5-4073-8938-793e8bf5b131', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E990258B90>]}
+[0m22:28:51.475410 [info ] [MainThread]: Registered adapter: postgres=1.6.6
+[0m22:28:51.480856 [debug] [MainThread]: checksum: 546b81fb56652c304d87abd676e84d4737d8a0c6b62160f4a6e79dcddbc842bb, vars: {}, profile: , target: , version: 1.6.6
+[0m22:28:51.481856 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m22:28:51.482108 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': '9ad1f500-e5d5-4073-8938-793e8bf5b131', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E990B8DF10>]}
+[0m22:28:51.842656 [error] [MainThread]: Encountered an error:
+Compilation Error in snapshot lga_snapshot (snapshots\lga_snapshot.sql)
+  expected token ',', got 'check_cols'
+    line 8
+      check_cols = ['listing_neighbourhood']
+[0m22:28:51.843656 [debug] [MainThread]: Command `dbt snapshot` failed at 22:28:51.843656 after 0.45 seconds
+[0m22:28:51.843656 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E989EBA390>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E990A9CE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001E990C06050>]}
+[0m22:28:51.843656 [debug] [MainThread]: Flushing usage events
+[0m22:30:40.453676 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E0CBDC3D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E0D193D90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E0D35FD90>]}
+
+
+============================== 22:30:40.457186 | f9e4be16-16b6-4026-8675-4576746350b1 ==============================
+[0m22:30:40.457186 [info ] [MainThread]: Running with dbt=1.6.6
+[0m22:30:40.458186 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'True', 'log_path': 'C:\\Users\\htw10\\OneDrive\\Documents_chinese\\GitHub\\BDE_AT3\\logs', 'profiles_dir': 'C:\\Users\\htw10\\.dbt', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt snapshot -d', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:30:40.517195 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'f9e4be16-16b6-4026-8675-4576746350b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E0D35DA50>]}
+[0m22:30:40.527704 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'f9e4be16-16b6-4026-8675-4576746350b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E0D3950D0>]}
+[0m22:30:40.528704 [info ] [MainThread]: Registered adapter: postgres=1.6.6
+[0m22:30:40.533704 [debug] [MainThread]: checksum: 546b81fb56652c304d87abd676e84d4737d8a0c6b62160f4a6e79dcddbc842bb, vars: {}, profile: , target: , version: 1.6.6
+[0m22:30:40.535207 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m22:30:40.536211 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'f9e4be16-16b6-4026-8675-4576746350b1', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E0D432F50>]}
+[0m22:30:40.899390 [error] [MainThread]: Encountered an error:
+Compilation Error in snapshot lga_snapshot (snapshots\lga_snapshot.sql)
+  expected token ',', got 'check_cols'
+    line 8
+      check_cols = 'listing_neighbourhood'
+[0m22:30:40.900390 [debug] [MainThread]: Command `dbt snapshot` failed at 22:30:40.900390 after 0.46 seconds
+[0m22:30:40.901390 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E066FA410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E0D44C2D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000027E0D4809D0>]}
+[0m22:30:40.902390 [debug] [MainThread]: Flushing usage events
+[0m22:38:34.198319 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D6188BD10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D6187D810>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D6188B090>]}
+
+
+============================== 22:38:34.201321 | b24f2115-d312-4a20-9475-603202e81f44 ==============================
+[0m22:38:34.201321 [info ] [MainThread]: Running with dbt=1.6.6
+[0m22:38:34.202321 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\htw10\\.dbt', 'fail_fast': 'False', 'debug': 'True', 'log_path': 'C:\\Users\\htw10\\OneDrive\\Documents_chinese\\GitHub\\BDE_AT3\\logs', 'warn_error': 'None', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt snapshot -d', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m22:38:34.262843 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'b24f2115-d312-4a20-9475-603202e81f44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D618AA750>]}
+[0m22:38:34.272349 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'b24f2115-d312-4a20-9475-603202e81f44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D619232D0>]}
+[0m22:38:34.273349 [info ] [MainThread]: Registered adapter: postgres=1.6.6
+[0m22:38:34.278863 [debug] [MainThread]: checksum: 546b81fb56652c304d87abd676e84d4737d8a0c6b62160f4a6e79dcddbc842bb, vars: {}, profile: , target: , version: 1.6.6
+[0m22:38:34.279864 [info ] [MainThread]: Unable to do partial parsing because saved manifest not found. Starting full parse.
+[0m22:38:34.280864 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'partial_parser', 'label': 'b24f2115-d312-4a20-9475-603202e81f44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D6187D4D0>]}
+[0m22:38:34.672081 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.bde_at3.datamart
+- models.bde_at3.staging
+- models.bde_at3.warehouse
+[0m22:38:34.675685 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'b24f2115-d312-4a20-9475-603202e81f44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D61B00DD0>]}
+[0m22:38:34.682813 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'b24f2115-d312-4a20-9475-603202e81f44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D61A89890>]}
+[0m22:38:34.682813 [info ] [MainThread]: Found 4 snapshots, 5 sources, 0 exposures, 0 metrics, 352 macros, 0 groups, 0 semantic models
+[0m22:38:34.684317 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b24f2115-d312-4a20-9475-603202e81f44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D6196F490>]}
+[0m22:38:34.685321 [info ] [MainThread]: 
+[0m22:38:34.686479 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m22:38:34.687477 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m22:38:34.693477 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m22:38:34.694477 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m22:38:34.695477 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:38:34.771768 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.0 seconds
+[0m22:38:34.772767 [debug] [ThreadPool]: On list_postgres: Close
+[0m22:38:34.774526 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_raw'
+[0m22:38:34.778031 [debug] [ThreadPool]: Using postgres connection "list_postgres_raw"
+[0m22:38:34.779031 [debug] [ThreadPool]: On list_postgres_raw: BEGIN
+[0m22:38:34.779031 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:38:34.850130 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m22:38:34.851135 [debug] [ThreadPool]: Using postgres connection "list_postgres_raw"
+[0m22:38:34.852136 [debug] [ThreadPool]: On list_postgres_raw: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "connection_name": "list_postgres_raw"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'raw'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'raw'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'raw'
+  
+[0m22:38:34.865157 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.0 seconds
+[0m22:38:34.867163 [debug] [ThreadPool]: On list_postgres_raw: ROLLBACK
+[0m22:38:34.875162 [debug] [ThreadPool]: On list_postgres_raw: Close
+[0m22:38:34.879182 [debug] [MainThread]: Using postgres connection "master"
+[0m22:38:34.880184 [debug] [MainThread]: On master: BEGIN
+[0m22:38:34.880184 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:38:34.956145 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m22:38:34.958146 [debug] [MainThread]: Using postgres connection "master"
+[0m22:38:34.959147 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m22:38:34.976495 [debug] [MainThread]: SQL status: SELECT 0 in 0.0 seconds
+[0m22:38:34.977495 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'b24f2115-d312-4a20-9475-603202e81f44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D61B39710>]}
+[0m22:38:34.978495 [debug] [MainThread]: On master: ROLLBACK
+[0m22:38:34.985156 [debug] [MainThread]: Using postgres connection "master"
+[0m22:38:34.985156 [debug] [MainThread]: On master: BEGIN
+[0m22:38:34.999278 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m22:38:35.000279 [debug] [MainThread]: On master: COMMIT
+[0m22:38:35.001279 [debug] [MainThread]: Using postgres connection "master"
+[0m22:38:35.001279 [debug] [MainThread]: On master: COMMIT
+[0m22:38:35.008411 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m22:38:35.008411 [debug] [MainThread]: On master: Close
+[0m22:38:35.009411 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m22:38:35.010410 [info ] [MainThread]: 
+[0m22:38:35.012411 [debug] [Thread-1 (]: Began running node snapshot.bde_at3.host_snapshot
+[0m22:38:35.012411 [debug] [Thread-2 (]: Began running node snapshot.bde_at3.lga_snapshot
+[0m22:38:35.012411 [debug] [Thread-3 (]: Began running node snapshot.bde_at3.property_type_snapshot
+[0m22:38:35.012411 [debug] [Thread-4 (]: Began running node snapshot.bde_at3.room_type_snapshot
+[0m22:38:35.013411 [info ] [Thread-1 (]: 1 of 4 START snapshot raw.host_snapshot ........................................ [RUN]
+[0m22:38:35.014411 [info ] [Thread-2 (]: 2 of 4 START snapshot raw.lga_snapshot ......................................... [RUN]
+[0m22:38:35.014411 [info ] [Thread-3 (]: 3 of 4 START snapshot raw.property_type_snapshot ............................... [RUN]
+[0m22:38:35.015411 [info ] [Thread-4 (]: 4 of 4 START snapshot raw.room_type_snapshot ................................... [RUN]
+[0m22:38:35.015411 [debug] [Thread-1 (]: Acquiring new postgres connection 'snapshot.bde_at3.host_snapshot'
+[0m22:38:35.016519 [debug] [Thread-2 (]: Acquiring new postgres connection 'snapshot.bde_at3.lga_snapshot'
+[0m22:38:35.016519 [debug] [Thread-3 (]: Acquiring new postgres connection 'snapshot.bde_at3.property_type_snapshot'
+[0m22:38:35.017519 [debug] [Thread-4 (]: Acquiring new postgres connection 'snapshot.bde_at3.room_type_snapshot'
+[0m22:38:35.017519 [debug] [Thread-1 (]: Began compiling node snapshot.bde_at3.host_snapshot
+[0m22:38:35.017519 [debug] [Thread-2 (]: Began compiling node snapshot.bde_at3.lga_snapshot
+[0m22:38:35.018519 [debug] [Thread-3 (]: Began compiling node snapshot.bde_at3.property_type_snapshot
+[0m22:38:35.018519 [debug] [Thread-4 (]: Began compiling node snapshot.bde_at3.room_type_snapshot
+[0m22:38:35.023519 [debug] [Thread-1 (]: Timing info for snapshot.bde_at3.host_snapshot (compile): 22:38:35.018519 => 22:38:35.023519
+[0m22:38:35.026027 [debug] [Thread-2 (]: Timing info for snapshot.bde_at3.lga_snapshot (compile): 22:38:35.023519 => 22:38:35.025084
+[0m22:38:35.028026 [debug] [Thread-3 (]: Timing info for snapshot.bde_at3.property_type_snapshot (compile): 22:38:35.026027 => 22:38:35.028026
+[0m22:38:35.030026 [debug] [Thread-4 (]: Timing info for snapshot.bde_at3.room_type_snapshot (compile): 22:38:35.028026 => 22:38:35.030026
+[0m22:38:35.031026 [debug] [Thread-1 (]: Began executing node snapshot.bde_at3.host_snapshot
+[0m22:38:35.031026 [debug] [Thread-2 (]: Began executing node snapshot.bde_at3.lga_snapshot
+[0m22:38:35.031026 [debug] [Thread-3 (]: Began executing node snapshot.bde_at3.property_type_snapshot
+[0m22:38:35.031026 [debug] [Thread-4 (]: Began executing node snapshot.bde_at3.room_type_snapshot
+[0m22:38:35.059132 [debug] [Thread-1 (]: Writing runtime sql for node "snapshot.bde_at3.host_snapshot"
+[0m22:38:35.061135 [debug] [Thread-2 (]: Writing runtime sql for node "snapshot.bde_at3.lga_snapshot"
+[0m22:38:35.064133 [debug] [Thread-3 (]: Writing runtime sql for node "snapshot.bde_at3.property_type_snapshot"
+[0m22:38:35.066642 [debug] [Thread-4 (]: Writing runtime sql for node "snapshot.bde_at3.room_type_snapshot"
+[0m22:38:35.071079 [debug] [Thread-2 (]: Using postgres connection "snapshot.bde_at3.lga_snapshot"
+[0m22:38:35.071079 [debug] [Thread-4 (]: Using postgres connection "snapshot.bde_at3.room_type_snapshot"
+[0m22:38:35.072078 [debug] [Thread-3 (]: Using postgres connection "snapshot.bde_at3.property_type_snapshot"
+[0m22:38:35.072078 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:38:35.072078 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: BEGIN
+[0m22:38:35.073078 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: BEGIN
+[0m22:38:35.073078 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: BEGIN
+[0m22:38:35.074078 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: BEGIN
+[0m22:38:35.074078 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m22:38:35.075078 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m22:38:35.075078 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m22:38:35.075078 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m22:38:35.145551 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:38:35.145551 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:38:35.146553 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      
+  
+    
+
+  create  table "postgres"."raw"."host_snapshot"
+  
+  
+    as
+  
+  (
+    
+
+    select *,
+        md5(coalesce(cast(host_id as varchar ), '')
+         || '|' || coalesce(cast(host_name as varchar ), '')
+        ) as dbt_scd_id,
+        host_name as dbt_updated_at,
+        host_name as dbt_valid_from,
+        nullif(host_name, host_name) as dbt_valid_to
+    from (
+        
+
+
+
+select distinct host_id, host_name from "postgres"."raw"."listing"
+
+    ) sbq
+
+
+
+  );
+  
+  
+[0m22:38:35.152553 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:38:35.152553 [debug] [Thread-3 (]: Using postgres connection "snapshot.bde_at3.property_type_snapshot"
+[0m22:38:35.153555 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.property_type_snapshot"} */
+
+      
+  
+    
+
+  create  table "postgres"."raw"."property_type_snapshot"
+  
+  
+    as
+  
+  (
+    
+
+    select *,
+        md5(coalesce(cast(property_type_id as varchar ), '')
+         || '|' || coalesce(cast(property_type_name as varchar ), '')
+        ) as dbt_scd_id,
+        property_type_name as dbt_updated_at,
+        property_type_name as dbt_valid_from,
+        nullif(property_type_name, property_type_name) as dbt_valid_to
+    from (
+        
+
+
+
+select row_number() as property_type_id, distinct property_type
+from "postgres"."raw"."listing"
+
+    ) sbq
+
+
+
+  );
+  
+  
+[0m22:38:35.153555 [debug] [Thread-4 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:38:35.155058 [debug] [Thread-4 (]: Using postgres connection "snapshot.bde_at3.room_type_snapshot"
+[0m22:38:35.155058 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.room_type_snapshot"} */
+
+      
+  
+    
+
+  create  table "postgres"."raw"."room_type_snapshot"
+  
+  
+    as
+  
+  (
+    
+
+    select *,
+        md5(coalesce(cast(room_type_id as varchar ), '')
+         || '|' || coalesce(cast(room_type_name as varchar ), '')
+        ) as dbt_scd_id,
+        room_type_name as dbt_updated_at,
+        room_type_name as dbt_valid_from,
+        nullif(room_type_name, room_type_name) as dbt_valid_to
+    from (
+        
+
+
+
+select row_number() as room_type_id, distinct room_type
+from "postgres"."raw"."listing"
+
+    ) sbq
+
+
+
+  );
+  
+  
+[0m22:38:35.157062 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:38:35.158063 [debug] [Thread-2 (]: Using postgres connection "snapshot.bde_at3.lga_snapshot"
+[0m22:38:35.158063 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.lga_snapshot"} */
+
+      
+  
+    
+
+  create  table "postgres"."raw"."lga_snapshot"
+  
+  
+    as
+  
+  (
+    
+
+    select *,
+        md5(coalesce(cast(listing_neighbourhood as varchar ), '')
+         || '|' || coalesce(cast(listing_neighbourhood as varchar ), '')
+        ) as dbt_scd_id,
+        listing_neighbourhood as dbt_updated_at,
+        listing_neighbourhood as dbt_valid_from,
+        nullif(listing_neighbourhood, listing_neighbourhood) as dbt_valid_to
+    from (
+        
+
+
+
+select distinct listing_neibourhood from "postgres"."raw"."listing"
+
+    ) sbq
+
+
+
+  );
+  
+  
+[0m22:38:35.161791 [debug] [Thread-3 (]: Postgres adapter: Postgres error: syntax error at or near "distinct"
+LINE 27: select row_number() as property_type_id, distinct property_t...
+                                                  ^
+
+[0m22:38:35.161791 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: ROLLBACK
+[0m22:38:35.165297 [debug] [Thread-4 (]: Postgres adapter: Postgres error: syntax error at or near "distinct"
+LINE 27: select row_number() as room_type_id, distinct room_type
+                                              ^
+
+[0m22:38:35.165297 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: ROLLBACK
+[0m22:38:35.169299 [debug] [Thread-3 (]: Timing info for snapshot.bde_at3.property_type_snapshot (execute): 22:38:35.062133 => 22:38:35.169299
+[0m22:38:35.169299 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: Close
+[0m22:38:35.171301 [debug] [Thread-2 (]: Postgres adapter: Postgres error: column "listing_neibourhood" does not exist
+LINE 27: select distinct listing_neibourhood from "postgres"."raw"."l...
+                         ^
+HINT:  Perhaps you meant to reference the column "listing.listing_neighbourhood".
+
+[0m22:38:35.172300 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: ROLLBACK
+[0m22:38:35.173302 [debug] [Thread-4 (]: Timing info for snapshot.bde_at3.room_type_snapshot (execute): 22:38:35.064133 => 22:38:35.172300
+[0m22:38:35.173302 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: Close
+[0m22:38:35.180808 [debug] [Thread-2 (]: Timing info for snapshot.bde_at3.lga_snapshot (execute): 22:38:35.059132 => 22:38:35.179808
+[0m22:38:35.180808 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: Close
+[0m22:38:35.216862 [debug] [Thread-3 (]: Database Error in snapshot property_type_snapshot (snapshots\property_type_snapshot.sql)
+  syntax error at or near "distinct"
+  LINE 27: select row_number() as property_type_id, distinct property_t...
+                                                    ^
+  compiled Code at target\run\bde_at3\snapshots\property_type_snapshot.sql
+[0m22:38:35.217855 [debug] [Thread-4 (]: Database Error in snapshot room_type_snapshot (snapshots\room_type_snapshot.sql)
+  syntax error at or near "distinct"
+  LINE 27: select row_number() as room_type_id, distinct room_type
+                                                ^
+  compiled Code at target\run\bde_at3\snapshots\room_type_snapshot.sql
+[0m22:38:35.217855 [debug] [Thread-2 (]: Database Error in snapshot lga_snapshot (snapshots\lga_snapshot.sql)
+  column "listing_neibourhood" does not exist
+  LINE 27: select distinct listing_neibourhood from "postgres"."raw"."l...
+                           ^
+  HINT:  Perhaps you meant to reference the column "listing.listing_neighbourhood".
+  compiled Code at target\run\bde_at3\snapshots\lga_snapshot.sql
+[0m22:38:35.218855 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b24f2115-d312-4a20-9475-603202e81f44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D61B9C2D0>]}
+[0m22:38:35.218855 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b24f2115-d312-4a20-9475-603202e81f44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D61B9D4D0>]}
+[0m22:38:35.218855 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b24f2115-d312-4a20-9475-603202e81f44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D61AFE650>]}
+[0m22:38:35.220322 [error] [Thread-3 (]: 3 of 4 ERROR snapshotting raw.property_type_snapshot ........................... [[31mERROR[0m in 0.20s]
+[0m22:38:35.221326 [error] [Thread-4 (]: 4 of 4 ERROR snapshotting raw.room_type_snapshot ............................... [[31mERROR[0m in 0.20s]
+[0m22:38:35.222326 [error] [Thread-2 (]: 2 of 4 ERROR snapshotting raw.lga_snapshot ..................................... [[31mERROR[0m in 0.20s]
+[0m22:38:35.222326 [debug] [Thread-3 (]: Finished running node snapshot.bde_at3.property_type_snapshot
+[0m22:38:35.223326 [debug] [Thread-4 (]: Finished running node snapshot.bde_at3.room_type_snapshot
+[0m22:38:35.223326 [debug] [Thread-2 (]: Finished running node snapshot.bde_at3.lga_snapshot
+[0m22:38:35.455348 [debug] [Thread-1 (]: SQL status: SELECT 32102 in 0.0 seconds
+[0m22:38:35.468514 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: COMMIT
+[0m22:38:35.468514 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:38:35.469515 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: COMMIT
+[0m22:38:35.487264 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m22:38:35.488264 [debug] [Thread-1 (]: Timing info for snapshot.bde_at3.host_snapshot (execute): 22:38:35.032172 => 22:38:35.488264
+[0m22:38:35.489268 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: Close
+[0m22:38:35.490266 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'b24f2115-d312-4a20-9475-603202e81f44', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D61BD2790>]}
+[0m22:38:35.491267 [info ] [Thread-1 (]: 1 of 4 OK snapshotted raw.host_snapshot ........................................ [[32mSELECT 32102[0m in 0.47s]
+[0m22:38:35.491267 [debug] [Thread-1 (]: Finished running node snapshot.bde_at3.host_snapshot
+[0m22:38:35.492266 [debug] [MainThread]: Using postgres connection "master"
+[0m22:38:35.493265 [debug] [MainThread]: On master: BEGIN
+[0m22:38:35.493265 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m22:38:35.572588 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m22:38:35.573604 [debug] [MainThread]: On master: COMMIT
+[0m22:38:35.576128 [debug] [MainThread]: Using postgres connection "master"
+[0m22:38:35.577292 [debug] [MainThread]: On master: COMMIT
+[0m22:38:35.585309 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m22:38:35.586315 [debug] [MainThread]: On master: Close
+[0m22:38:35.586315 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:38:35.587321 [debug] [MainThread]: Connection 'list_postgres' was properly closed.
+[0m22:38:35.587321 [debug] [MainThread]: Connection 'list_postgres_raw' was properly closed.
+[0m22:38:35.588320 [debug] [MainThread]: Connection 'snapshot.bde_at3.host_snapshot' was properly closed.
+[0m22:38:35.588320 [debug] [MainThread]: Connection 'snapshot.bde_at3.lga_snapshot' was properly closed.
+[0m22:38:35.589319 [debug] [MainThread]: Connection 'snapshot.bde_at3.property_type_snapshot' was properly closed.
+[0m22:38:35.589319 [debug] [MainThread]: Connection 'snapshot.bde_at3.room_type_snapshot' was properly closed.
+[0m22:38:35.589319 [info ] [MainThread]: 
+[0m22:38:35.590319 [info ] [MainThread]: Finished running 4 snapshots in 0 hours 0 minutes and 0.90 seconds (0.90s).
+[0m22:38:35.591319 [debug] [MainThread]: Command end result
+[0m22:38:35.595823 [info ] [MainThread]: 
+[0m22:38:35.597827 [info ] [MainThread]: [31mCompleted with 3 errors and 0 warnings:[0m
+[0m22:38:35.597827 [info ] [MainThread]: 
+[0m22:38:35.597827 [error] [MainThread]:   Database Error in snapshot property_type_snapshot (snapshots\property_type_snapshot.sql)
+  syntax error at or near "distinct"
+  LINE 27: select row_number() as property_type_id, distinct property_t...
+                                                    ^
+  compiled Code at target\run\bde_at3\snapshots\property_type_snapshot.sql
+[0m22:38:35.598828 [info ] [MainThread]: 
+[0m22:38:35.599827 [error] [MainThread]:   Database Error in snapshot room_type_snapshot (snapshots\room_type_snapshot.sql)
+  syntax error at or near "distinct"
+  LINE 27: select row_number() as room_type_id, distinct room_type
+                                                ^
+  compiled Code at target\run\bde_at3\snapshots\room_type_snapshot.sql
+[0m22:38:35.599827 [info ] [MainThread]: 
+[0m22:38:35.599827 [error] [MainThread]:   Database Error in snapshot lga_snapshot (snapshots\lga_snapshot.sql)
+  column "listing_neibourhood" does not exist
+  LINE 27: select distinct listing_neibourhood from "postgres"."raw"."l...
+                           ^
+  HINT:  Perhaps you meant to reference the column "listing.listing_neighbourhood".
+  compiled Code at target\run\bde_at3\snapshots\lga_snapshot.sql
+[0m22:38:35.600828 [info ] [MainThread]: 
+[0m22:38:35.600828 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=3 SKIP=0 TOTAL=4
+[0m22:38:35.601827 [debug] [MainThread]: Command `dbt snapshot` failed at 22:38:35.601827 after 1.42 seconds
+[0m22:38:35.601827 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D5AC8A410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D5AF68550>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000021D61A6CF90>]}
+[0m22:38:35.602827 [debug] [MainThread]: Flushing usage events
+[0m22:40:37.601192 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002465C1CD350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002465BFFFD50>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002465BFFFC90>]}
+
+
+============================== 22:40:37.604192 | 12f8300d-d4e1-45e3-b534-81ffc27afc65 ==============================
+[0m22:40:37.604192 [info ] [MainThread]: Running with dbt=1.6.6
+[0m22:40:37.605192 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'debug': 'True', 'log_path': 'C:\\Users\\htw10\\OneDrive\\Documents_chinese\\GitHub\\BDE_AT3\\logs', 'profiles_dir': 'C:\\Users\\htw10\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt snapshot -d', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:40:37.663119 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '12f8300d-d4e1-45e3-b534-81ffc27afc65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002465C2BFD50>]}
+[0m22:40:37.672527 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '12f8300d-d4e1-45e3-b534-81ffc27afc65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002465C2B5CD0>]}
+[0m22:40:37.673527 [info ] [MainThread]: Registered adapter: postgres=1.6.6
+[0m22:40:37.680035 [debug] [MainThread]: checksum: 546b81fb56652c304d87abd676e84d4737d8a0c6b62160f4a6e79dcddbc842bb, vars: {}, profile: , target: , version: 1.6.6
+[0m22:40:37.720072 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 2 files changed.
+[0m22:40:37.721067 [debug] [MainThread]: Partial parsing: updated file: bde_at3://snapshots\room_type_snapshot.sql
+[0m22:40:37.721067 [debug] [MainThread]: Partial parsing: updated file: bde_at3://snapshots\property_type_snapshot.sql
+[0m22:40:37.750687 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.bde_at3.warehouse
+- models.bde_at3.datamart
+- models.bde_at3.staging
+[0m22:40:37.753742 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '12f8300d-d4e1-45e3-b534-81ffc27afc65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002465B080BD0>]}
+[0m22:40:37.759250 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '12f8300d-d4e1-45e3-b534-81ffc27afc65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002465C35CB90>]}
+[0m22:40:37.760251 [info ] [MainThread]: Found 4 snapshots, 5 sources, 0 exposures, 0 metrics, 352 macros, 0 groups, 0 semantic models
+[0m22:40:37.760251 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '12f8300d-d4e1-45e3-b534-81ffc27afc65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024657F2C650>]}
+[0m22:40:37.761250 [info ] [MainThread]: 
+[0m22:40:37.762251 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m22:40:37.763251 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m22:40:37.769756 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m22:40:37.769756 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m22:40:37.770757 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:40:37.851706 [debug] [ThreadPool]: SQL status: SELECT 5 in 0.0 seconds
+[0m22:40:37.856160 [debug] [ThreadPool]: On list_postgres: Close
+[0m22:40:37.859160 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_raw'
+[0m22:40:37.865153 [debug] [ThreadPool]: Using postgres connection "list_postgres_raw"
+[0m22:40:37.865153 [debug] [ThreadPool]: On list_postgres_raw: BEGIN
+[0m22:40:37.866506 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:40:37.940657 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m22:40:37.941659 [debug] [ThreadPool]: Using postgres connection "list_postgres_raw"
+[0m22:40:37.942665 [debug] [ThreadPool]: On list_postgres_raw: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "connection_name": "list_postgres_raw"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'raw'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'raw'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'raw'
+  
+[0m22:40:37.956717 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.0 seconds
+[0m22:40:37.959723 [debug] [ThreadPool]: On list_postgres_raw: ROLLBACK
+[0m22:40:37.967231 [debug] [ThreadPool]: On list_postgres_raw: Close
+[0m22:40:37.970233 [debug] [MainThread]: Using postgres connection "master"
+[0m22:40:37.971233 [debug] [MainThread]: On master: BEGIN
+[0m22:40:37.971233 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:40:38.045480 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m22:40:38.046495 [debug] [MainThread]: Using postgres connection "master"
+[0m22:40:38.047487 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m22:40:38.065375 [debug] [MainThread]: SQL status: SELECT 0 in 0.0 seconds
+[0m22:40:38.067402 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '12f8300d-d4e1-45e3-b534-81ffc27afc65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002465B8C1510>]}
+[0m22:40:38.068401 [debug] [MainThread]: On master: ROLLBACK
+[0m22:40:38.075784 [debug] [MainThread]: Using postgres connection "master"
+[0m22:40:38.076790 [debug] [MainThread]: On master: BEGIN
+[0m22:40:38.091155 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m22:40:38.091155 [debug] [MainThread]: On master: COMMIT
+[0m22:40:38.092156 [debug] [MainThread]: Using postgres connection "master"
+[0m22:40:38.092156 [debug] [MainThread]: On master: COMMIT
+[0m22:40:38.099401 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m22:40:38.099401 [debug] [MainThread]: On master: Close
+[0m22:40:38.100406 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m22:40:38.100406 [info ] [MainThread]: 
+[0m22:40:38.102405 [debug] [Thread-1 (]: Began running node snapshot.bde_at3.host_snapshot
+[0m22:40:38.103405 [debug] [Thread-2 (]: Began running node snapshot.bde_at3.lga_snapshot
+[0m22:40:38.103405 [debug] [Thread-3 (]: Began running node snapshot.bde_at3.property_type_snapshot
+[0m22:40:38.103405 [debug] [Thread-4 (]: Began running node snapshot.bde_at3.room_type_snapshot
+[0m22:40:38.104405 [info ] [Thread-1 (]: 1 of 4 START snapshot raw.host_snapshot ........................................ [RUN]
+[0m22:40:38.104405 [info ] [Thread-2 (]: 2 of 4 START snapshot raw.lga_snapshot ......................................... [RUN]
+[0m22:40:38.105405 [info ] [Thread-3 (]: 3 of 4 START snapshot raw.property_type_snapshot ............................... [RUN]
+[0m22:40:38.105405 [info ] [Thread-4 (]: 4 of 4 START snapshot raw.room_type_snapshot ................................... [RUN]
+[0m22:40:38.105405 [debug] [Thread-1 (]: Acquiring new postgres connection 'snapshot.bde_at3.host_snapshot'
+[0m22:40:38.106820 [debug] [Thread-2 (]: Acquiring new postgres connection 'snapshot.bde_at3.lga_snapshot'
+[0m22:40:38.107824 [debug] [Thread-3 (]: Acquiring new postgres connection 'snapshot.bde_at3.property_type_snapshot'
+[0m22:40:38.107824 [debug] [Thread-4 (]: Acquiring new postgres connection 'snapshot.bde_at3.room_type_snapshot'
+[0m22:40:38.107824 [debug] [Thread-1 (]: Began compiling node snapshot.bde_at3.host_snapshot
+[0m22:40:38.108951 [debug] [Thread-2 (]: Began compiling node snapshot.bde_at3.lga_snapshot
+[0m22:40:38.108951 [debug] [Thread-3 (]: Began compiling node snapshot.bde_at3.property_type_snapshot
+[0m22:40:38.109955 [debug] [Thread-4 (]: Began compiling node snapshot.bde_at3.room_type_snapshot
+[0m22:40:38.113995 [debug] [Thread-1 (]: Timing info for snapshot.bde_at3.host_snapshot (compile): 22:40:38.109955 => 22:40:38.113995
+[0m22:40:38.116504 [debug] [Thread-2 (]: Timing info for snapshot.bde_at3.lga_snapshot (compile): 22:40:38.113995 => 22:40:38.116504
+[0m22:40:38.118504 [debug] [Thread-3 (]: Timing info for snapshot.bde_at3.property_type_snapshot (compile): 22:40:38.116504 => 22:40:38.118504
+[0m22:40:38.120503 [debug] [Thread-4 (]: Timing info for snapshot.bde_at3.room_type_snapshot (compile): 22:40:38.118504 => 22:40:38.120503
+[0m22:40:38.120503 [debug] [Thread-1 (]: Began executing node snapshot.bde_at3.host_snapshot
+[0m22:40:38.121504 [debug] [Thread-2 (]: Began executing node snapshot.bde_at3.lga_snapshot
+[0m22:40:38.121504 [debug] [Thread-3 (]: Began executing node snapshot.bde_at3.property_type_snapshot
+[0m22:40:38.121504 [debug] [Thread-4 (]: Began executing node snapshot.bde_at3.room_type_snapshot
+[0m22:40:38.148206 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:40:38.156603 [debug] [Thread-2 (]: Writing runtime sql for node "snapshot.bde_at3.lga_snapshot"
+[0m22:40:38.158606 [debug] [Thread-3 (]: Writing runtime sql for node "snapshot.bde_at3.property_type_snapshot"
+[0m22:40:38.160606 [debug] [Thread-4 (]: Writing runtime sql for node "snapshot.bde_at3.room_type_snapshot"
+[0m22:40:38.160606 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: BEGIN
+[0m22:40:38.162606 [debug] [Thread-2 (]: Using postgres connection "snapshot.bde_at3.lga_snapshot"
+[0m22:40:38.162606 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m22:40:38.162606 [debug] [Thread-3 (]: Using postgres connection "snapshot.bde_at3.property_type_snapshot"
+[0m22:40:38.163606 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: BEGIN
+[0m22:40:38.163606 [debug] [Thread-4 (]: Using postgres connection "snapshot.bde_at3.room_type_snapshot"
+[0m22:40:38.163606 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: BEGIN
+[0m22:40:38.165111 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m22:40:38.165111 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: BEGIN
+[0m22:40:38.166115 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m22:40:38.166115 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m22:40:38.236561 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:40:38.237560 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:40:38.238559 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from "postgres".INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot'
+        
+        and table_schema = 'raw'
+        
+      order by ordinal_position
+
+  
+[0m22:40:38.243708 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:40:38.245211 [debug] [Thread-2 (]: Using postgres connection "snapshot.bde_at3.lga_snapshot"
+[0m22:40:38.245211 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.lga_snapshot"} */
+
+      
+  
+    
+
+  create  table "postgres"."raw"."lga_snapshot"
+  
+  
+    as
+  
+  (
+    
+
+    select *,
+        md5(coalesce(cast(listing_neighbourhood as varchar ), '')
+         || '|' || coalesce(cast(listing_neighbourhood as varchar ), '')
+        ) as dbt_scd_id,
+        listing_neighbourhood as dbt_updated_at,
+        listing_neighbourhood as dbt_valid_from,
+        nullif(listing_neighbourhood, listing_neighbourhood) as dbt_valid_to
+    from (
+        
+
+
+
+select distinct listing_neibourhood from "postgres"."raw"."listing"
+
+    ) sbq
+
+
+
+  );
+  
+  
+[0m22:40:38.246215 [debug] [Thread-4 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:40:38.247215 [debug] [Thread-4 (]: Using postgres connection "snapshot.bde_at3.room_type_snapshot"
+[0m22:40:38.248216 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.room_type_snapshot"} */
+
+      
+  
+    
+
+  create  table "postgres"."raw"."room_type_snapshot"
+  
+  
+    as
+  
+  (
+    
+
+    select *,
+        md5(coalesce(cast(room_type_id as varchar ), '')
+         || '|' || coalesce(cast(room_type_name as varchar ), '')
+        ) as dbt_scd_id,
+        room_type_name as dbt_updated_at,
+        room_type_name as dbt_valid_from,
+        nullif(room_type_name, room_type_name) as dbt_valid_to
+    from (
+        
+
+
+
+select distinct row_number() as room_type_id,  room_type from "postgres"."raw"."listing"
+
+    ) sbq
+
+
+
+  );
+  
+  
+[0m22:40:38.255261 [debug] [Thread-2 (]: Postgres adapter: Postgres error: column "listing_neibourhood" does not exist
+LINE 27: select distinct listing_neibourhood from "postgres"."raw"."l...
+                         ^
+HINT:  Perhaps you meant to reference the column "listing.listing_neighbourhood".
+
+[0m22:40:38.256264 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: ROLLBACK
+[0m22:40:38.260938 [debug] [Thread-4 (]: Postgres adapter: Postgres error: window function row_number requires an OVER clause
+LINE 27: select distinct row_number() as room_type_id,  room_type fro...
+                         ^
+
+[0m22:40:38.261938 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: ROLLBACK
+[0m22:40:38.264010 [debug] [Thread-2 (]: Timing info for snapshot.bde_at3.lga_snapshot (execute): 22:40:38.149207 => 22:40:38.264010
+[0m22:40:38.264514 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: Close
+[0m22:40:38.265018 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:40:38.266038 [debug] [Thread-3 (]: Using postgres connection "snapshot.bde_at3.property_type_snapshot"
+[0m22:40:38.267221 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.property_type_snapshot"} */
+
+      
+  
+    
+
+  create  table "postgres"."raw"."property_type_snapshot"
+  
+  
+    as
+  
+  (
+    
+
+    select *,
+        md5(coalesce(cast(property_type_id as varchar ), '')
+         || '|' || coalesce(cast(property_type_name as varchar ), '')
+        ) as dbt_scd_id,
+        property_type_name as dbt_updated_at,
+        property_type_name as dbt_valid_from,
+        nullif(property_type_name, property_type_name) as dbt_valid_to
+    from (
+        
+
+
+
+select distinct row_number() as property_type_id, property_type from "postgres"."raw"."listing"
+
+    ) sbq
+
+
+
+  );
+  
+  
+[0m22:40:38.268227 [debug] [Thread-4 (]: Timing info for snapshot.bde_at3.room_type_snapshot (execute): 22:40:38.158606 => 22:40:38.268227
+[0m22:40:38.269228 [debug] [Thread-1 (]: SQL status: SELECT 6 in 0.0 seconds
+[0m22:40:38.271226 [debug] [Thread-2 (]: Database Error in snapshot lga_snapshot (snapshots\lga_snapshot.sql)
+  column "listing_neibourhood" does not exist
+  LINE 27: select distinct listing_neibourhood from "postgres"."raw"."l...
+                           ^
+  HINT:  Perhaps you meant to reference the column "listing.listing_neighbourhood".
+  compiled Code at target\run\bde_at3\snapshots\lga_snapshot.sql
+[0m22:40:38.272228 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: Close
+[0m22:40:38.288243 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:40:38.288243 [debug] [Thread-3 (]: Postgres adapter: Postgres error: window function row_number requires an OVER clause
+LINE 27: select distinct row_number() as property_type_id, property_t...
+                         ^
+
+[0m22:40:38.288243 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '12f8300d-d4e1-45e3-b534-81ffc27afc65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002465C2BC590>]}
+[0m22:40:38.290243 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+        
+  
+    
+
+  create temporary table "host_snapshot__dbt_tmp224038283735"
+  
+  
+    as
+  
+  (
+    with snapshot_query as (
+
+        
+
+
+
+select distinct host_id, host_name from "postgres"."raw"."listing"
+
+
+    ),
+
+    snapshotted_data as (
+
+        select *,
+            host_id as dbt_unique_key
+
+        from "postgres"."raw"."host_snapshot"
+        where dbt_valid_to is null
+
+    ),
+
+    insertions_source_data as (
+
+        select
+            *,
+            host_id as dbt_unique_key,
+            host_name as dbt_updated_at,
+            host_name as dbt_valid_from,
+            nullif(host_name, host_name) as dbt_valid_to,
+            md5(coalesce(cast(host_id as varchar ), '')
+         || '|' || coalesce(cast(host_name as varchar ), '')
+        ) as dbt_scd_id
+
+        from snapshot_query
+    ),
+
+    updates_source_data as (
+
+        select
+            *,
+            host_id as dbt_unique_key,
+            host_name as dbt_updated_at,
+            host_name as dbt_valid_from,
+            host_name as dbt_valid_to
+
+        from snapshot_query
+    ),
+
+    insertions as (
+
+        select
+            'insert' as dbt_change_type,
+            source_data.*
+
+        from insertions_source_data as source_data
+        left outer join snapshotted_data on snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+        where snapshotted_data.dbt_unique_key is null
+           or (
+                snapshotted_data.dbt_unique_key is not null
+            and (
+                (snapshotted_data.dbt_valid_from < source_data.host_name)
+            )
+        )
+
+    ),
+
+    updates as (
+
+        select
+            'update' as dbt_change_type,
+            source_data.*,
+            snapshotted_data.dbt_scd_id
+
+        from updates_source_data as source_data
+        join snapshotted_data on snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+        where (
+            (snapshotted_data.dbt_valid_from < source_data.host_name)
+        )
+    )
+
+    select * from insertions
+    union all
+    select * from updates
+
+  );
+  
+    
+[0m22:40:38.290243 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: ROLLBACK
+[0m22:40:38.291244 [debug] [Thread-4 (]: Database Error in snapshot room_type_snapshot (snapshots\room_type_snapshot.sql)
+  window function row_number requires an OVER clause
+  LINE 27: select distinct row_number() as room_type_id,  room_type fro...
+                           ^
+  compiled Code at target\run\bde_at3\snapshots\room_type_snapshot.sql
+[0m22:40:38.292242 [error] [Thread-2 (]: 2 of 4 ERROR snapshotting raw.lga_snapshot ..................................... [[31mERROR[0m in 0.18s]
+[0m22:40:38.293242 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '12f8300d-d4e1-45e3-b534-81ffc27afc65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002465C336350>]}
+[0m22:40:38.294243 [debug] [Thread-2 (]: Finished running node snapshot.bde_at3.lga_snapshot
+[0m22:40:38.294243 [error] [Thread-4 (]: 4 of 4 ERROR snapshotting raw.room_type_snapshot ............................... [[31mERROR[0m in 0.19s]
+[0m22:40:38.295243 [debug] [Thread-4 (]: Finished running node snapshot.bde_at3.room_type_snapshot
+[0m22:40:38.300470 [debug] [Thread-3 (]: Timing info for snapshot.bde_at3.property_type_snapshot (execute): 22:40:38.156603 => 22:40:38.300470
+[0m22:40:38.300470 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: Close
+[0m22:40:38.302472 [debug] [Thread-3 (]: Database Error in snapshot property_type_snapshot (snapshots\property_type_snapshot.sql)
+  window function row_number requires an OVER clause
+  LINE 27: select distinct row_number() as property_type_id, property_t...
+                           ^
+  compiled Code at target\run\bde_at3\snapshots\property_type_snapshot.sql
+[0m22:40:38.303471 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '12f8300d-d4e1-45e3-b534-81ffc27afc65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002465B8C1510>]}
+[0m22:40:38.304472 [error] [Thread-3 (]: 3 of 4 ERROR snapshotting raw.property_type_snapshot ........................... [[31mERROR[0m in 0.20s]
+[0m22:40:38.304472 [debug] [Thread-3 (]: Finished running node snapshot.bde_at3.property_type_snapshot
+[0m22:40:38.687018 [debug] [Thread-1 (]: SQL status: SELECT 2258 in 0.0 seconds
+[0m22:40:38.690018 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:40:38.691020 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot__dbt_tmp224038283735'
+        
+      order by ordinal_position
+
+  
+[0m22:40:38.702302 [debug] [Thread-1 (]: SQL status: SELECT 8 in 0.0 seconds
+[0m22:40:38.706815 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:40:38.706815 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from "postgres".INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot'
+        
+        and table_schema = 'raw'
+        
+      order by ordinal_position
+
+  
+[0m22:40:38.717568 [debug] [Thread-1 (]: SQL status: SELECT 6 in 0.0 seconds
+[0m22:40:38.720571 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:40:38.720571 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot__dbt_tmp224038283735'
+        
+      order by ordinal_position
+
+  
+[0m22:40:38.731130 [debug] [Thread-1 (]: SQL status: SELECT 8 in 0.0 seconds
+[0m22:40:38.733132 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:40:38.734133 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from "postgres".INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot'
+        
+        and table_schema = 'raw'
+        
+      order by ordinal_position
+
+  
+[0m22:40:38.744213 [debug] [Thread-1 (]: SQL status: SELECT 6 in 0.0 seconds
+[0m22:40:38.749262 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:40:38.750261 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot__dbt_tmp224038283735'
+        
+      order by ordinal_position
+
+  
+[0m22:40:38.760287 [debug] [Thread-1 (]: SQL status: SELECT 8 in 0.0 seconds
+[0m22:40:38.764288 [debug] [Thread-1 (]: Writing runtime sql for node "snapshot.bde_at3.host_snapshot"
+[0m22:40:38.765288 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:40:38.765288 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      update "postgres"."raw"."host_snapshot"
+    set dbt_valid_to = DBT_INTERNAL_SOURCE.dbt_valid_to
+    from "host_snapshot__dbt_tmp224038283735" as DBT_INTERNAL_SOURCE
+    where DBT_INTERNAL_SOURCE.dbt_scd_id::text = "postgres"."raw"."host_snapshot".dbt_scd_id::text
+      and DBT_INTERNAL_SOURCE.dbt_change_type::text in ('update'::text, 'delete'::text)
+      and "postgres"."raw"."host_snapshot".dbt_valid_to is null;
+
+    insert into "postgres"."raw"."host_snapshot" ("host_id", "host_name", "dbt_updated_at", "dbt_valid_from", "dbt_valid_to", "dbt_scd_id")
+    select DBT_INTERNAL_SOURCE."host_id",DBT_INTERNAL_SOURCE."host_name",DBT_INTERNAL_SOURCE."dbt_updated_at",DBT_INTERNAL_SOURCE."dbt_valid_from",DBT_INTERNAL_SOURCE."dbt_valid_to",DBT_INTERNAL_SOURCE."dbt_scd_id"
+    from "host_snapshot__dbt_tmp224038283735" as DBT_INTERNAL_SOURCE
+    where DBT_INTERNAL_SOURCE.dbt_change_type::text = 'insert'::text;
+
+  
+[0m22:40:38.791801 [debug] [Thread-1 (]: SQL status: INSERT 0 1129 in 0.0 seconds
+[0m22:40:38.801310 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: COMMIT
+[0m22:40:38.802310 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:40:38.802310 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: COMMIT
+[0m22:40:38.815344 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m22:40:38.817409 [debug] [Thread-1 (]: Timing info for snapshot.bde_at3.host_snapshot (execute): 22:40:38.122504 => 22:40:38.817409
+[0m22:40:38.818409 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: Close
+[0m22:40:38.818409 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '12f8300d-d4e1-45e3-b534-81ffc27afc65', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002465C3AE410>]}
+[0m22:40:38.819409 [info ] [Thread-1 (]: 1 of 4 OK snapshotted raw.host_snapshot ........................................ [[32mINSERT 0 1129[0m in 0.71s]
+[0m22:40:38.820408 [debug] [Thread-1 (]: Finished running node snapshot.bde_at3.host_snapshot
+[0m22:40:38.821408 [debug] [MainThread]: Using postgres connection "master"
+[0m22:40:38.821408 [debug] [MainThread]: On master: BEGIN
+[0m22:40:38.822409 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m22:40:38.890895 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m22:40:38.891895 [debug] [MainThread]: On master: COMMIT
+[0m22:40:38.892896 [debug] [MainThread]: Using postgres connection "master"
+[0m22:40:38.892896 [debug] [MainThread]: On master: COMMIT
+[0m22:40:38.899405 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m22:40:38.899405 [debug] [MainThread]: On master: Close
+[0m22:40:38.900414 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:40:38.900414 [debug] [MainThread]: Connection 'list_postgres' was properly closed.
+[0m22:40:38.901411 [debug] [MainThread]: Connection 'list_postgres_raw' was properly closed.
+[0m22:40:38.901411 [debug] [MainThread]: Connection 'snapshot.bde_at3.host_snapshot' was properly closed.
+[0m22:40:38.901411 [debug] [MainThread]: Connection 'snapshot.bde_at3.lga_snapshot' was properly closed.
+[0m22:40:38.902410 [debug] [MainThread]: Connection 'snapshot.bde_at3.property_type_snapshot' was properly closed.
+[0m22:40:38.902410 [debug] [MainThread]: Connection 'snapshot.bde_at3.room_type_snapshot' was properly closed.
+[0m22:40:38.903410 [info ] [MainThread]: 
+[0m22:40:38.903410 [info ] [MainThread]: Finished running 4 snapshots in 0 hours 0 minutes and 1.14 seconds (1.14s).
+[0m22:40:38.904410 [debug] [MainThread]: Command end result
+[0m22:40:38.909919 [info ] [MainThread]: 
+[0m22:40:38.911143 [info ] [MainThread]: [31mCompleted with 3 errors and 0 warnings:[0m
+[0m22:40:38.911143 [info ] [MainThread]: 
+[0m22:40:38.912147 [error] [MainThread]:   Database Error in snapshot lga_snapshot (snapshots\lga_snapshot.sql)
+  column "listing_neibourhood" does not exist
+  LINE 27: select distinct listing_neibourhood from "postgres"."raw"."l...
+                           ^
+  HINT:  Perhaps you meant to reference the column "listing.listing_neighbourhood".
+  compiled Code at target\run\bde_at3\snapshots\lga_snapshot.sql
+[0m22:40:38.912147 [info ] [MainThread]: 
+[0m22:40:38.913151 [error] [MainThread]:   Database Error in snapshot room_type_snapshot (snapshots\room_type_snapshot.sql)
+  window function row_number requires an OVER clause
+  LINE 27: select distinct row_number() as room_type_id,  room_type fro...
+                           ^
+  compiled Code at target\run\bde_at3\snapshots\room_type_snapshot.sql
+[0m22:40:38.913151 [info ] [MainThread]: 
+[0m22:40:38.913151 [error] [MainThread]:   Database Error in snapshot property_type_snapshot (snapshots\property_type_snapshot.sql)
+  window function row_number requires an OVER clause
+  LINE 27: select distinct row_number() as property_type_id, property_t...
+                           ^
+  compiled Code at target\run\bde_at3\snapshots\property_type_snapshot.sql
+[0m22:40:38.914151 [info ] [MainThread]: 
+[0m22:40:38.914151 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=3 SKIP=0 TOTAL=4
+[0m22:40:38.915151 [debug] [MainThread]: Command `dbt snapshot` failed at 22:40:38.915151 after 1.33 seconds
+[0m22:40:38.915151 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002465554A410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000246558287D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024655828550>]}
+[0m22:40:38.916262 [debug] [MainThread]: Flushing usage events
+[0m22:41:51.455709 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A0593D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A0172690>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A04870D0>]}
+
+
+============================== 22:41:51.457712 | 8e4182b6-5c62-41a7-8f07-57214ca2ffee ==============================
+[0m22:41:51.457712 [info ] [MainThread]: Running with dbt=1.6.6
+[0m22:41:51.458712 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\htw10\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'C:\\Users\\htw10\\OneDrive\\Documents_chinese\\GitHub\\BDE_AT3\\logs', 'version_check': 'True', 'debug': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt snapshot -d', 'send_anonymous_usage_stats': 'True'}
+[0m22:41:51.517439 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': '8e4182b6-5c62-41a7-8f07-57214ca2ffee', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A066F350>]}
+[0m22:41:51.526564 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': '8e4182b6-5c62-41a7-8f07-57214ca2ffee', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A057E0D0>]}
+[0m22:41:51.527884 [info ] [MainThread]: Registered adapter: postgres=1.6.6
+[0m22:41:51.533270 [debug] [MainThread]: checksum: 546b81fb56652c304d87abd676e84d4737d8a0c6b62160f4a6e79dcddbc842bb, vars: {}, profile: , target: , version: 1.6.6
+[0m22:41:51.567606 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m22:41:51.569454 [debug] [MainThread]: Partial parsing: updated file: bde_at3://snapshots\lga_snapshot.sql
+[0m22:41:51.594473 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.bde_at3.warehouse
+- models.bde_at3.datamart
+- models.bde_at3.staging
+[0m22:41:51.597698 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': '8e4182b6-5c62-41a7-8f07-57214ca2ffee', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A069E090>]}
+[0m22:41:51.603698 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': '8e4182b6-5c62-41a7-8f07-57214ca2ffee', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A0725290>]}
+[0m22:41:51.605202 [info ] [MainThread]: Found 4 snapshots, 5 sources, 0 exposures, 0 metrics, 352 macros, 0 groups, 0 semantic models
+[0m22:41:51.605202 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e4182b6-5c62-41a7-8f07-57214ca2ffee', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001349C2DC650>]}
+[0m22:41:51.606206 [info ] [MainThread]: 
+[0m22:41:51.607208 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m22:41:51.608206 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m22:41:51.615048 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m22:41:51.615144 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m22:41:51.616051 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:41:51.693578 [debug] [ThreadPool]: SQL status: SELECT 7 in 0.0 seconds
+[0m22:41:51.695081 [debug] [ThreadPool]: On list_postgres: Close
+[0m22:41:51.697084 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_raw'
+[0m22:41:51.700087 [debug] [ThreadPool]: Using postgres connection "list_postgres_raw"
+[0m22:41:51.701087 [debug] [ThreadPool]: On list_postgres_raw: BEGIN
+[0m22:41:51.701087 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:41:51.772832 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m22:41:51.772832 [debug] [ThreadPool]: Using postgres connection "list_postgres_raw"
+[0m22:41:51.773832 [debug] [ThreadPool]: On list_postgres_raw: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "connection_name": "list_postgres_raw"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'raw'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'raw'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'raw'
+  
+[0m22:41:51.785321 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.0 seconds
+[0m22:41:51.787351 [debug] [ThreadPool]: On list_postgres_raw: ROLLBACK
+[0m22:41:51.794346 [debug] [ThreadPool]: On list_postgres_raw: Close
+[0m22:41:51.798630 [debug] [MainThread]: Using postgres connection "master"
+[0m22:41:51.798630 [debug] [MainThread]: On master: BEGIN
+[0m22:41:51.799630 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:41:51.877687 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m22:41:51.879059 [debug] [MainThread]: Using postgres connection "master"
+[0m22:41:51.881068 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m22:41:51.898600 [debug] [MainThread]: SQL status: SELECT 0 in 0.0 seconds
+[0m22:41:51.899600 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': '8e4182b6-5c62-41a7-8f07-57214ca2ffee', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001349FD38BD0>]}
+[0m22:41:51.900600 [debug] [MainThread]: On master: ROLLBACK
+[0m22:41:51.907835 [debug] [MainThread]: Using postgres connection "master"
+[0m22:41:51.908840 [debug] [MainThread]: On master: BEGIN
+[0m22:41:51.923344 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m22:41:51.923344 [debug] [MainThread]: On master: COMMIT
+[0m22:41:51.924344 [debug] [MainThread]: Using postgres connection "master"
+[0m22:41:51.924344 [debug] [MainThread]: On master: COMMIT
+[0m22:41:51.931852 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m22:41:51.931852 [debug] [MainThread]: On master: Close
+[0m22:41:51.932853 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m22:41:51.932853 [info ] [MainThread]: 
+[0m22:41:51.935359 [debug] [Thread-1 (]: Began running node snapshot.bde_at3.host_snapshot
+[0m22:41:51.935359 [debug] [Thread-2 (]: Began running node snapshot.bde_at3.lga_snapshot
+[0m22:41:51.935359 [debug] [Thread-3 (]: Began running node snapshot.bde_at3.property_type_snapshot
+[0m22:41:51.936365 [debug] [Thread-4 (]: Began running node snapshot.bde_at3.room_type_snapshot
+[0m22:41:51.936365 [info ] [Thread-1 (]: 1 of 4 START snapshot raw.host_snapshot ........................................ [RUN]
+[0m22:41:51.937365 [info ] [Thread-2 (]: 2 of 4 START snapshot raw.lga_snapshot ......................................... [RUN]
+[0m22:41:51.937365 [info ] [Thread-3 (]: 3 of 4 START snapshot raw.property_type_snapshot ............................... [RUN]
+[0m22:41:51.938365 [info ] [Thread-4 (]: 4 of 4 START snapshot raw.room_type_snapshot ................................... [RUN]
+[0m22:41:51.938365 [debug] [Thread-1 (]: Acquiring new postgres connection 'snapshot.bde_at3.host_snapshot'
+[0m22:41:51.939364 [debug] [Thread-2 (]: Acquiring new postgres connection 'snapshot.bde_at3.lga_snapshot'
+[0m22:41:51.939364 [debug] [Thread-3 (]: Acquiring new postgres connection 'snapshot.bde_at3.property_type_snapshot'
+[0m22:41:51.940366 [debug] [Thread-4 (]: Acquiring new postgres connection 'snapshot.bde_at3.room_type_snapshot'
+[0m22:41:51.940366 [debug] [Thread-1 (]: Began compiling node snapshot.bde_at3.host_snapshot
+[0m22:41:51.941366 [debug] [Thread-2 (]: Began compiling node snapshot.bde_at3.lga_snapshot
+[0m22:41:51.941366 [debug] [Thread-3 (]: Began compiling node snapshot.bde_at3.property_type_snapshot
+[0m22:41:51.942365 [debug] [Thread-4 (]: Began compiling node snapshot.bde_at3.room_type_snapshot
+[0m22:41:51.946872 [debug] [Thread-1 (]: Timing info for snapshot.bde_at3.host_snapshot (compile): 22:41:51.942365 => 22:41:51.946872
+[0m22:41:51.948872 [debug] [Thread-2 (]: Timing info for snapshot.bde_at3.lga_snapshot (compile): 22:41:51.947873 => 22:41:51.948872
+[0m22:41:51.950872 [debug] [Thread-3 (]: Timing info for snapshot.bde_at3.property_type_snapshot (compile): 22:41:51.949871 => 22:41:51.950872
+[0m22:41:51.952869 [debug] [Thread-4 (]: Timing info for snapshot.bde_at3.room_type_snapshot (compile): 22:41:51.951872 => 22:41:51.952869
+[0m22:41:51.953872 [debug] [Thread-1 (]: Began executing node snapshot.bde_at3.host_snapshot
+[0m22:41:51.953872 [debug] [Thread-2 (]: Began executing node snapshot.bde_at3.lga_snapshot
+[0m22:41:51.953872 [debug] [Thread-3 (]: Began executing node snapshot.bde_at3.property_type_snapshot
+[0m22:41:51.955378 [debug] [Thread-4 (]: Began executing node snapshot.bde_at3.room_type_snapshot
+[0m22:41:51.980034 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:41:51.987539 [debug] [Thread-2 (]: Writing runtime sql for node "snapshot.bde_at3.lga_snapshot"
+[0m22:41:51.990540 [debug] [Thread-3 (]: Writing runtime sql for node "snapshot.bde_at3.property_type_snapshot"
+[0m22:41:51.992540 [debug] [Thread-4 (]: Writing runtime sql for node "snapshot.bde_at3.room_type_snapshot"
+[0m22:41:51.992540 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: BEGIN
+[0m22:41:51.993540 [debug] [Thread-2 (]: Using postgres connection "snapshot.bde_at3.lga_snapshot"
+[0m22:41:51.993540 [debug] [Thread-3 (]: Using postgres connection "snapshot.bde_at3.property_type_snapshot"
+[0m22:41:51.993540 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m22:41:51.995044 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: BEGIN
+[0m22:41:51.995044 [debug] [Thread-4 (]: Using postgres connection "snapshot.bde_at3.room_type_snapshot"
+[0m22:41:51.995044 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: BEGIN
+[0m22:41:51.996050 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m22:41:51.997051 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: BEGIN
+[0m22:41:51.997051 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m22:41:51.997051 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m22:41:52.077505 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:41:52.078505 [debug] [Thread-3 (]: Using postgres connection "snapshot.bde_at3.property_type_snapshot"
+[0m22:41:52.078505 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.property_type_snapshot"} */
+
+      
+  
+    
+
+  create  table "postgres"."raw"."property_type_snapshot"
+  
+  
+    as
+  
+  (
+    
+
+    select *,
+        md5(coalesce(cast(property_type_id as varchar ), '')
+         || '|' || coalesce(cast(property_type_name as varchar ), '')
+        ) as dbt_scd_id,
+        property_type_name as dbt_updated_at,
+        property_type_name as dbt_valid_from,
+        nullif(property_type_name, property_type_name) as dbt_valid_to
+    from (
+        
+
+
+
+select distinct row_number() as property_type_id, property_type from "postgres"."raw"."listing"
+
+    ) sbq
+
+
+
+  );
+  
+  
+[0m22:41:52.081505 [debug] [Thread-4 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:41:52.081505 [debug] [Thread-4 (]: Using postgres connection "snapshot.bde_at3.room_type_snapshot"
+[0m22:41:52.082504 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.room_type_snapshot"} */
+
+      
+  
+    
+
+  create  table "postgres"."raw"."room_type_snapshot"
+  
+  
+    as
+  
+  (
+    
+
+    select *,
+        md5(coalesce(cast(room_type_id as varchar ), '')
+         || '|' || coalesce(cast(room_type_name as varchar ), '')
+        ) as dbt_scd_id,
+        room_type_name as dbt_updated_at,
+        room_type_name as dbt_valid_from,
+        nullif(room_type_name, room_type_name) as dbt_valid_to
+    from (
+        
+
+
+
+select distinct row_number() as room_type_id,  room_type from "postgres"."raw"."listing"
+
+    ) sbq
+
+
+
+  );
+  
+  
+[0m22:41:52.085008 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:41:52.086011 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:41:52.086011 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from "postgres".INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot'
+        
+        and table_schema = 'raw'
+        
+      order by ordinal_position
+
+  
+[0m22:41:52.086011 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:41:52.087012 [debug] [Thread-2 (]: Using postgres connection "snapshot.bde_at3.lga_snapshot"
+[0m22:41:52.087012 [debug] [Thread-3 (]: Postgres adapter: Postgres error: window function row_number requires an OVER clause
+LINE 27: select distinct row_number() as property_type_id, property_t...
+                         ^
+
+[0m22:41:52.088012 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.lga_snapshot"} */
+
+      
+  
+    
+
+  create  table "postgres"."raw"."lga_snapshot"
+  
+  
+    as
+  
+  (
+    
+
+    select *,
+        md5(coalesce(cast(listing_neighbourhood as varchar ), '')
+         || '|' || coalesce(cast(listing_neighbourhood as varchar ), '')
+        ) as dbt_scd_id,
+        listing_neighbourhood as dbt_updated_at,
+        listing_neighbourhood as dbt_valid_from,
+        nullif(listing_neighbourhood, listing_neighbourhood) as dbt_valid_to
+    from (
+        
+
+
+
+select distinct listing.listing_neibourhood from "postgres"."raw"."listing"
+
+    ) sbq
+
+
+
+  );
+  
+  
+[0m22:41:52.088012 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: ROLLBACK
+[0m22:41:52.093012 [debug] [Thread-4 (]: Postgres adapter: Postgres error: window function row_number requires an OVER clause
+LINE 27: select distinct row_number() as room_type_id,  room_type fro...
+                         ^
+
+[0m22:41:52.093012 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: ROLLBACK
+[0m22:41:52.096183 [debug] [Thread-3 (]: Timing info for snapshot.bde_at3.property_type_snapshot (execute): 22:41:51.988541 => 22:41:52.096183
+[0m22:41:52.096183 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: Close
+[0m22:41:52.097312 [debug] [Thread-2 (]: Postgres adapter: Postgres error: column listing.listing_neibourhood does not exist
+LINE 27: select distinct listing.listing_neibourhood from "postgres"....
+                         ^
+HINT:  Perhaps you meant to reference the column "listing.listing_neighbourhood".
+
+[0m22:41:52.098311 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: ROLLBACK
+[0m22:41:52.100312 [debug] [Thread-3 (]: Database Error in snapshot property_type_snapshot (snapshots\property_type_snapshot.sql)
+  window function row_number requires an OVER clause
+  LINE 27: select distinct row_number() as property_type_id, property_t...
+                           ^
+  compiled Code at target\run\bde_at3\snapshots\property_type_snapshot.sql
+[0m22:41:52.100312 [debug] [Thread-4 (]: Timing info for snapshot.bde_at3.room_type_snapshot (execute): 22:41:51.990540 => 22:41:52.100312
+[0m22:41:52.101312 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8e4182b6-5c62-41a7-8f07-57214ca2ffee', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A0875A90>]}
+[0m22:41:52.101312 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: Close
+[0m22:41:52.102312 [error] [Thread-3 (]: 3 of 4 ERROR snapshotting raw.property_type_snapshot ........................... [[31mERROR[0m in 0.16s]
+[0m22:41:52.103313 [debug] [Thread-3 (]: Finished running node snapshot.bde_at3.property_type_snapshot
+[0m22:41:52.104313 [debug] [Thread-4 (]: Database Error in snapshot room_type_snapshot (snapshots\room_type_snapshot.sql)
+  window function row_number requires an OVER clause
+  LINE 27: select distinct row_number() as room_type_id,  room_type fro...
+                           ^
+  compiled Code at target\run\bde_at3\snapshots\room_type_snapshot.sql
+[0m22:41:52.105312 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8e4182b6-5c62-41a7-8f07-57214ca2ffee', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A07B7FD0>]}
+[0m22:41:52.106382 [error] [Thread-4 (]: 4 of 4 ERROR snapshotting raw.room_type_snapshot ............................... [[31mERROR[0m in 0.16s]
+[0m22:41:52.106382 [debug] [Thread-2 (]: Timing info for snapshot.bde_at3.lga_snapshot (execute): 22:41:51.980034 => 22:41:52.106382
+[0m22:41:52.106382 [debug] [Thread-4 (]: Finished running node snapshot.bde_at3.room_type_snapshot
+[0m22:41:52.107381 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: Close
+[0m22:41:52.109380 [debug] [Thread-2 (]: Database Error in snapshot lga_snapshot (snapshots\lga_snapshot.sql)
+  column listing.listing_neibourhood does not exist
+  LINE 27: select distinct listing.listing_neibourhood from "postgres"....
+                           ^
+  HINT:  Perhaps you meant to reference the column "listing.listing_neighbourhood".
+  compiled Code at target\run\bde_at3\snapshots\lga_snapshot.sql
+[0m22:41:52.109380 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8e4182b6-5c62-41a7-8f07-57214ca2ffee', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A03B3ED0>]}
+[0m22:41:52.110380 [error] [Thread-2 (]: 2 of 4 ERROR snapshotting raw.lga_snapshot ..................................... [[31mERROR[0m in 0.17s]
+[0m22:41:52.110380 [debug] [Thread-1 (]: SQL status: SELECT 6 in 0.0 seconds
+[0m22:41:52.111381 [debug] [Thread-2 (]: Finished running node snapshot.bde_at3.lga_snapshot
+[0m22:41:52.124405 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:41:52.124405 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+        
+  
+    
+
+  create temporary table "host_snapshot__dbt_tmp224152120405"
+  
+  
+    as
+  
+  (
+    with snapshot_query as (
+
+        
+
+
+
+select distinct host_id, host_name from "postgres"."raw"."listing"
+
+
+    ),
+
+    snapshotted_data as (
+
+        select *,
+            host_id as dbt_unique_key
+
+        from "postgres"."raw"."host_snapshot"
+        where dbt_valid_to is null
+
+    ),
+
+    insertions_source_data as (
+
+        select
+            *,
+            host_id as dbt_unique_key,
+            host_name as dbt_updated_at,
+            host_name as dbt_valid_from,
+            nullif(host_name, host_name) as dbt_valid_to,
+            md5(coalesce(cast(host_id as varchar ), '')
+         || '|' || coalesce(cast(host_name as varchar ), '')
+        ) as dbt_scd_id
+
+        from snapshot_query
+    ),
+
+    updates_source_data as (
+
+        select
+            *,
+            host_id as dbt_unique_key,
+            host_name as dbt_updated_at,
+            host_name as dbt_valid_from,
+            host_name as dbt_valid_to
+
+        from snapshot_query
+    ),
+
+    insertions as (
+
+        select
+            'insert' as dbt_change_type,
+            source_data.*
+
+        from insertions_source_data as source_data
+        left outer join snapshotted_data on snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+        where snapshotted_data.dbt_unique_key is null
+           or (
+                snapshotted_data.dbt_unique_key is not null
+            and (
+                (snapshotted_data.dbt_valid_from < source_data.host_name)
+            )
+        )
+
+    ),
+
+    updates as (
+
+        select
+            'update' as dbt_change_type,
+            source_data.*,
+            snapshotted_data.dbt_scd_id
+
+        from updates_source_data as source_data
+        join snapshotted_data on snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+        where (
+            (snapshotted_data.dbt_valid_from < source_data.host_name)
+        )
+    )
+
+    select * from insertions
+    union all
+    select * from updates
+
+  );
+  
+    
+[0m22:41:52.508904 [debug] [Thread-1 (]: SQL status: SELECT 60 in 0.0 seconds
+[0m22:41:52.511905 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:41:52.512905 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot__dbt_tmp224152120405'
+        
+      order by ordinal_position
+
+  
+[0m22:41:52.535294 [debug] [Thread-1 (]: SQL status: SELECT 8 in 0.0 seconds
+[0m22:41:52.538298 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:41:52.539299 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from "postgres".INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot'
+        
+        and table_schema = 'raw'
+        
+      order by ordinal_position
+
+  
+[0m22:41:52.552899 [debug] [Thread-1 (]: SQL status: SELECT 6 in 0.0 seconds
+[0m22:41:52.555400 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:41:52.556405 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot__dbt_tmp224152120405'
+        
+      order by ordinal_position
+
+  
+[0m22:41:52.567623 [debug] [Thread-1 (]: SQL status: SELECT 8 in 0.0 seconds
+[0m22:41:52.569618 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:41:52.570618 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from "postgres".INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot'
+        
+        and table_schema = 'raw'
+        
+      order by ordinal_position
+
+  
+[0m22:41:52.582129 [debug] [Thread-1 (]: SQL status: SELECT 6 in 0.0 seconds
+[0m22:41:52.586637 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:41:52.586637 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot__dbt_tmp224152120405'
+        
+      order by ordinal_position
+
+  
+[0m22:41:52.598143 [debug] [Thread-1 (]: SQL status: SELECT 8 in 0.0 seconds
+[0m22:41:52.602143 [debug] [Thread-1 (]: Writing runtime sql for node "snapshot.bde_at3.host_snapshot"
+[0m22:41:52.603146 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:41:52.603146 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      update "postgres"."raw"."host_snapshot"
+    set dbt_valid_to = DBT_INTERNAL_SOURCE.dbt_valid_to
+    from "host_snapshot__dbt_tmp224152120405" as DBT_INTERNAL_SOURCE
+    where DBT_INTERNAL_SOURCE.dbt_scd_id::text = "postgres"."raw"."host_snapshot".dbt_scd_id::text
+      and DBT_INTERNAL_SOURCE.dbt_change_type::text in ('update'::text, 'delete'::text)
+      and "postgres"."raw"."host_snapshot".dbt_valid_to is null;
+
+    insert into "postgres"."raw"."host_snapshot" ("host_id", "host_name", "dbt_updated_at", "dbt_valid_from", "dbt_valid_to", "dbt_scd_id")
+    select DBT_INTERNAL_SOURCE."host_id",DBT_INTERNAL_SOURCE."host_name",DBT_INTERNAL_SOURCE."dbt_updated_at",DBT_INTERNAL_SOURCE."dbt_valid_from",DBT_INTERNAL_SOURCE."dbt_valid_to",DBT_INTERNAL_SOURCE."dbt_scd_id"
+    from "host_snapshot__dbt_tmp224152120405" as DBT_INTERNAL_SOURCE
+    where DBT_INTERNAL_SOURCE.dbt_change_type::text = 'insert'::text;
+
+  
+[0m22:41:52.622582 [debug] [Thread-1 (]: SQL status: INSERT 0 30 in 0.0 seconds
+[0m22:41:52.631092 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: COMMIT
+[0m22:41:52.632092 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:41:52.632092 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: COMMIT
+[0m22:41:52.641915 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m22:41:52.643913 [debug] [Thread-1 (]: Timing info for snapshot.bde_at3.host_snapshot (execute): 22:41:51.955378 => 22:41:52.643913
+[0m22:41:52.643913 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: Close
+[0m22:41:52.645416 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': '8e4182b6-5c62-41a7-8f07-57214ca2ffee', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A06E08D0>]}
+[0m22:41:52.645416 [info ] [Thread-1 (]: 1 of 4 OK snapshotted raw.host_snapshot ........................................ [[32mINSERT 0 30[0m in 0.71s]
+[0m22:41:52.646420 [debug] [Thread-1 (]: Finished running node snapshot.bde_at3.host_snapshot
+[0m22:41:52.647554 [debug] [MainThread]: Using postgres connection "master"
+[0m22:41:52.648558 [debug] [MainThread]: On master: BEGIN
+[0m22:41:52.648558 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m22:41:52.746524 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m22:41:52.748538 [debug] [MainThread]: On master: COMMIT
+[0m22:41:52.750536 [debug] [MainThread]: Using postgres connection "master"
+[0m22:41:52.751540 [debug] [MainThread]: On master: COMMIT
+[0m22:41:52.759044 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m22:41:52.761047 [debug] [MainThread]: On master: Close
+[0m22:41:52.762047 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:41:52.763048 [debug] [MainThread]: Connection 'list_postgres' was properly closed.
+[0m22:41:52.764050 [debug] [MainThread]: Connection 'list_postgres_raw' was properly closed.
+[0m22:41:52.764050 [debug] [MainThread]: Connection 'snapshot.bde_at3.host_snapshot' was properly closed.
+[0m22:41:52.765047 [debug] [MainThread]: Connection 'snapshot.bde_at3.lga_snapshot' was properly closed.
+[0m22:41:52.765554 [debug] [MainThread]: Connection 'snapshot.bde_at3.property_type_snapshot' was properly closed.
+[0m22:41:52.765554 [debug] [MainThread]: Connection 'snapshot.bde_at3.room_type_snapshot' was properly closed.
+[0m22:41:52.766560 [info ] [MainThread]: 
+[0m22:41:52.766560 [info ] [MainThread]: Finished running 4 snapshots in 0 hours 0 minutes and 1.16 seconds (1.16s).
+[0m22:41:52.767562 [debug] [MainThread]: Command end result
+[0m22:41:52.772559 [info ] [MainThread]: 
+[0m22:41:52.773560 [info ] [MainThread]: [31mCompleted with 3 errors and 0 warnings:[0m
+[0m22:41:52.773560 [info ] [MainThread]: 
+[0m22:41:52.773560 [error] [MainThread]:   Database Error in snapshot property_type_snapshot (snapshots\property_type_snapshot.sql)
+  window function row_number requires an OVER clause
+  LINE 27: select distinct row_number() as property_type_id, property_t...
+                           ^
+  compiled Code at target\run\bde_at3\snapshots\property_type_snapshot.sql
+[0m22:41:52.773560 [info ] [MainThread]: 
+[0m22:41:52.775066 [error] [MainThread]:   Database Error in snapshot room_type_snapshot (snapshots\room_type_snapshot.sql)
+  window function row_number requires an OVER clause
+  LINE 27: select distinct row_number() as room_type_id,  room_type fro...
+                           ^
+  compiled Code at target\run\bde_at3\snapshots\room_type_snapshot.sql
+[0m22:41:52.775066 [info ] [MainThread]: 
+[0m22:41:52.776072 [error] [MainThread]:   Database Error in snapshot lga_snapshot (snapshots\lga_snapshot.sql)
+  column listing.listing_neibourhood does not exist
+  LINE 27: select distinct listing.listing_neibourhood from "postgres"....
+                           ^
+  HINT:  Perhaps you meant to reference the column "listing.listing_neighbourhood".
+  compiled Code at target\run\bde_at3\snapshots\lga_snapshot.sql
+[0m22:41:52.776072 [info ] [MainThread]: 
+[0m22:41:52.777071 [info ] [MainThread]: Done. PASS=1 WARN=0 ERROR=3 SKIP=0 TOTAL=4
+[0m22:41:52.777071 [debug] [MainThread]: Command `dbt snapshot` failed at 22:41:52.777071 after 1.34 seconds
+[0m22:41:52.778072 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001349994A410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A0594A10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000134A05963D0>]}
+[0m22:41:52.778072 [debug] [MainThread]: Flushing usage events
+[0m22:42:26.339250 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907D671D10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907DFDFB90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907DFDF250>]}
+
+
+============================== 22:42:26.341250 | a9d8d209-764a-4fcc-bb2b-dbd361e30199 ==============================
+[0m22:42:26.341250 [info ] [MainThread]: Running with dbt=1.6.6
+[0m22:42:26.342250 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\htw10\\.dbt', 'fail_fast': 'False', 'debug': 'True', 'log_path': 'C:\\Users\\htw10\\OneDrive\\Documents_chinese\\GitHub\\BDE_AT3\\logs', 'version_check': 'True', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'static_parser': 'True', 'introspect': 'True', 'invocation_command': 'dbt snapshot -d', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m22:42:26.400348 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'project_id', 'label': 'a9d8d209-764a-4fcc-bb2b-dbd361e30199', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907E0BED90>]}
+[0m22:42:26.410313 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'adapter_info', 'label': 'a9d8d209-764a-4fcc-bb2b-dbd361e30199', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907D8A8250>]}
+[0m22:42:26.411313 [info ] [MainThread]: Registered adapter: postgres=1.6.6
+[0m22:42:26.417592 [debug] [MainThread]: checksum: 546b81fb56652c304d87abd676e84d4737d8a0c6b62160f4a6e79dcddbc842bb, vars: {}, profile: , target: , version: 1.6.6
+[0m22:42:26.459977 [debug] [MainThread]: Partial parsing enabled: 0 files deleted, 0 files added, 1 files changed.
+[0m22:42:26.460977 [debug] [MainThread]: Partial parsing: updated file: bde_at3://snapshots\lga_snapshot.sql
+[0m22:42:26.485069 [warn ] [MainThread]: [[33mWARNING[0m]: Configuration paths exist in your dbt_project.yml file which do not apply to any resources.
+There are 3 unused configuration paths:
+- models.bde_at3.staging
+- models.bde_at3.datamart
+- models.bde_at3.warehouse
+[0m22:42:26.488053 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'load_project', 'label': 'a9d8d209-764a-4fcc-bb2b-dbd361e30199', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907E0DA990>]}
+[0m22:42:26.494053 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'resource_counts', 'label': 'a9d8d209-764a-4fcc-bb2b-dbd361e30199', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907E1755D0>]}
+[0m22:42:26.495052 [info ] [MainThread]: Found 4 snapshots, 5 sources, 0 exposures, 0 metrics, 352 macros, 0 groups, 0 semantic models
+[0m22:42:26.495052 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a9d8d209-764a-4fcc-bb2b-dbd361e30199', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000019079D2C650>]}
+[0m22:42:26.496303 [info ] [MainThread]: 
+[0m22:42:26.497307 [debug] [MainThread]: Acquiring new postgres connection 'master'
+[0m22:42:26.498306 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres'
+[0m22:42:26.504306 [debug] [ThreadPool]: Using postgres connection "list_postgres"
+[0m22:42:26.505306 [debug] [ThreadPool]: On list_postgres: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "connection_name": "list_postgres"} */
+
+    select distinct nspname from pg_namespace
+  
+[0m22:42:26.505306 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:42:26.587477 [debug] [ThreadPool]: SQL status: SELECT 9 in 0.0 seconds
+[0m22:42:26.590487 [debug] [ThreadPool]: On list_postgres: Close
+[0m22:42:26.593488 [debug] [ThreadPool]: Acquiring new postgres connection 'list_postgres_raw'
+[0m22:42:26.600001 [debug] [ThreadPool]: Using postgres connection "list_postgres_raw"
+[0m22:42:26.601001 [debug] [ThreadPool]: On list_postgres_raw: BEGIN
+[0m22:42:26.601001 [debug] [ThreadPool]: Opening a new connection, currently in state init
+[0m22:42:26.683429 [debug] [ThreadPool]: SQL status: BEGIN in 0.0 seconds
+[0m22:42:26.684430 [debug] [ThreadPool]: Using postgres connection "list_postgres_raw"
+[0m22:42:26.685430 [debug] [ThreadPool]: On list_postgres_raw: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "connection_name": "list_postgres_raw"} */
+select
+      'postgres' as database,
+      tablename as name,
+      schemaname as schema,
+      'table' as type
+    from pg_tables
+    where schemaname ilike 'raw'
+    union all
+    select
+      'postgres' as database,
+      viewname as name,
+      schemaname as schema,
+      'view' as type
+    from pg_views
+    where schemaname ilike 'raw'
+    union all
+    select
+      'postgres' as database,
+      matviewname as name,
+      schemaname as schema,
+      'materialized_view' as type
+    from pg_matviews
+    where schemaname ilike 'raw'
+  
+[0m22:42:26.699505 [debug] [ThreadPool]: SQL status: SELECT 6 in 0.0 seconds
+[0m22:42:26.702504 [debug] [ThreadPool]: On list_postgres_raw: ROLLBACK
+[0m22:42:26.709017 [debug] [ThreadPool]: On list_postgres_raw: Close
+[0m22:42:26.714407 [debug] [MainThread]: Using postgres connection "master"
+[0m22:42:26.715407 [debug] [MainThread]: On master: BEGIN
+[0m22:42:26.715407 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m22:42:26.813028 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m22:42:26.814030 [debug] [MainThread]: Using postgres connection "master"
+[0m22:42:26.816544 [debug] [MainThread]: On master: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "connection_name": "master"} */
+with relation as (
+        select
+            pg_rewrite.ev_class as class,
+            pg_rewrite.oid as id
+        from pg_rewrite
+    ),
+    class as (
+        select
+            oid as id,
+            relname as name,
+            relnamespace as schema,
+            relkind as kind
+        from pg_class
+    ),
+    dependency as (
+        select distinct
+            pg_depend.objid as id,
+            pg_depend.refobjid as ref
+        from pg_depend
+    ),
+    schema as (
+        select
+            pg_namespace.oid as id,
+            pg_namespace.nspname as name
+        from pg_namespace
+        where nspname != 'information_schema' and nspname not like 'pg\_%'
+    ),
+    referenced as (
+        select
+            relation.id AS id,
+            referenced_class.name ,
+            referenced_class.schema ,
+            referenced_class.kind
+        from relation
+        join class as referenced_class on relation.class=referenced_class.id
+        where referenced_class.kind in ('r', 'v', 'm')
+    ),
+    relationships as (
+        select
+            referenced.name as referenced_name,
+            referenced.schema as referenced_schema_id,
+            dependent_class.name as dependent_name,
+            dependent_class.schema as dependent_schema_id,
+            referenced.kind as kind
+        from referenced
+        join dependency on referenced.id=dependency.id
+        join class as dependent_class on dependency.ref=dependent_class.id
+        where
+            (referenced.name != dependent_class.name or
+             referenced.schema != dependent_class.schema)
+    )
+
+    select
+        referenced_schema.name as referenced_schema,
+        relationships.referenced_name as referenced_name,
+        dependent_schema.name as dependent_schema,
+        relationships.dependent_name as dependent_name
+    from relationships
+    join schema as dependent_schema on relationships.dependent_schema_id=dependent_schema.id
+    join schema as referenced_schema on relationships.referenced_schema_id=referenced_schema.id
+    group by referenced_schema, referenced_name, dependent_schema, dependent_name
+    order by referenced_schema, referenced_name, dependent_schema, dependent_name;
+[0m22:42:26.833187 [debug] [MainThread]: SQL status: SELECT 0 in 0.0 seconds
+[0m22:42:26.835190 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'runnable_timing', 'label': 'a9d8d209-764a-4fcc-bb2b-dbd361e30199', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907E199750>]}
+[0m22:42:26.836570 [debug] [MainThread]: On master: ROLLBACK
+[0m22:42:26.843189 [debug] [MainThread]: Using postgres connection "master"
+[0m22:42:26.843189 [debug] [MainThread]: On master: BEGIN
+[0m22:42:26.857524 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m22:42:26.857524 [debug] [MainThread]: On master: COMMIT
+[0m22:42:26.858522 [debug] [MainThread]: Using postgres connection "master"
+[0m22:42:26.858522 [debug] [MainThread]: On master: COMMIT
+[0m22:42:26.866038 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m22:42:26.866038 [debug] [MainThread]: On master: Close
+[0m22:42:26.867040 [info ] [MainThread]: Concurrency: 4 threads (target='dev')
+[0m22:42:26.867040 [info ] [MainThread]: 
+[0m22:42:26.869040 [debug] [Thread-1 (]: Began running node snapshot.bde_at3.host_snapshot
+[0m22:42:26.870039 [debug] [Thread-2 (]: Began running node snapshot.bde_at3.lga_snapshot
+[0m22:42:26.870039 [debug] [Thread-3 (]: Began running node snapshot.bde_at3.property_type_snapshot
+[0m22:42:26.870039 [debug] [Thread-4 (]: Began running node snapshot.bde_at3.room_type_snapshot
+[0m22:42:26.871038 [info ] [Thread-1 (]: 1 of 4 START snapshot raw.host_snapshot ........................................ [RUN]
+[0m22:42:26.872039 [info ] [Thread-2 (]: 2 of 4 START snapshot raw.lga_snapshot ......................................... [RUN]
+[0m22:42:26.872039 [info ] [Thread-3 (]: 3 of 4 START snapshot raw.property_type_snapshot ............................... [RUN]
+[0m22:42:26.873039 [info ] [Thread-4 (]: 4 of 4 START snapshot raw.room_type_snapshot ................................... [RUN]
+[0m22:42:26.873039 [debug] [Thread-1 (]: Acquiring new postgres connection 'snapshot.bde_at3.host_snapshot'
+[0m22:42:26.874039 [debug] [Thread-2 (]: Acquiring new postgres connection 'snapshot.bde_at3.lga_snapshot'
+[0m22:42:26.874039 [debug] [Thread-3 (]: Acquiring new postgres connection 'snapshot.bde_at3.property_type_snapshot'
+[0m22:42:26.875038 [debug] [Thread-4 (]: Acquiring new postgres connection 'snapshot.bde_at3.room_type_snapshot'
+[0m22:42:26.875038 [debug] [Thread-1 (]: Began compiling node snapshot.bde_at3.host_snapshot
+[0m22:42:26.876132 [debug] [Thread-2 (]: Began compiling node snapshot.bde_at3.lga_snapshot
+[0m22:42:26.876132 [debug] [Thread-3 (]: Began compiling node snapshot.bde_at3.property_type_snapshot
+[0m22:42:26.876132 [debug] [Thread-4 (]: Began compiling node snapshot.bde_at3.room_type_snapshot
+[0m22:42:26.881132 [debug] [Thread-1 (]: Timing info for snapshot.bde_at3.host_snapshot (compile): 22:42:26.877132 => 22:42:26.881132
+[0m22:42:26.883133 [debug] [Thread-2 (]: Timing info for snapshot.bde_at3.lga_snapshot (compile): 22:42:26.882132 => 22:42:26.883133
+[0m22:42:26.885635 [debug] [Thread-3 (]: Timing info for snapshot.bde_at3.property_type_snapshot (compile): 22:42:26.884132 => 22:42:26.885635
+[0m22:42:26.888639 [debug] [Thread-4 (]: Timing info for snapshot.bde_at3.room_type_snapshot (compile): 22:42:26.886640 => 22:42:26.887639
+[0m22:42:26.888639 [debug] [Thread-1 (]: Began executing node snapshot.bde_at3.host_snapshot
+[0m22:42:26.889639 [debug] [Thread-2 (]: Began executing node snapshot.bde_at3.lga_snapshot
+[0m22:42:26.889639 [debug] [Thread-3 (]: Began executing node snapshot.bde_at3.property_type_snapshot
+[0m22:42:26.889639 [debug] [Thread-4 (]: Began executing node snapshot.bde_at3.room_type_snapshot
+[0m22:42:26.915079 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:42:26.923082 [debug] [Thread-2 (]: Writing runtime sql for node "snapshot.bde_at3.lga_snapshot"
+[0m22:42:26.925586 [debug] [Thread-3 (]: Writing runtime sql for node "snapshot.bde_at3.property_type_snapshot"
+[0m22:42:26.927589 [debug] [Thread-4 (]: Writing runtime sql for node "snapshot.bde_at3.room_type_snapshot"
+[0m22:42:26.928590 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: BEGIN
+[0m22:42:26.928590 [debug] [Thread-2 (]: Using postgres connection "snapshot.bde_at3.lga_snapshot"
+[0m22:42:26.929589 [debug] [Thread-1 (]: Opening a new connection, currently in state init
+[0m22:42:26.929589 [debug] [Thread-3 (]: Using postgres connection "snapshot.bde_at3.property_type_snapshot"
+[0m22:42:26.929589 [debug] [Thread-4 (]: Using postgres connection "snapshot.bde_at3.room_type_snapshot"
+[0m22:42:26.930590 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: BEGIN
+[0m22:42:26.930590 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: BEGIN
+[0m22:42:26.931589 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: BEGIN
+[0m22:42:26.931589 [debug] [Thread-2 (]: Opening a new connection, currently in state init
+[0m22:42:26.931589 [debug] [Thread-3 (]: Opening a new connection, currently in state init
+[0m22:42:26.932590 [debug] [Thread-4 (]: Opening a new connection, currently in state init
+[0m22:42:27.001250 [debug] [Thread-1 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:42:27.002251 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:42:27.003250 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from "postgres".INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot'
+        
+        and table_schema = 'raw'
+        
+      order by ordinal_position
+
+  
+[0m22:42:27.005250 [debug] [Thread-3 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:42:27.005250 [debug] [Thread-3 (]: Using postgres connection "snapshot.bde_at3.property_type_snapshot"
+[0m22:42:27.006492 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.property_type_snapshot"} */
+
+      
+  
+    
+
+  create  table "postgres"."raw"."property_type_snapshot"
+  
+  
+    as
+  
+  (
+    
+
+    select *,
+        md5(coalesce(cast(property_type_id as varchar ), '')
+         || '|' || coalesce(cast(property_type_name as varchar ), '')
+        ) as dbt_scd_id,
+        property_type_name as dbt_updated_at,
+        property_type_name as dbt_valid_from,
+        nullif(property_type_name, property_type_name) as dbt_valid_to
+    from (
+        
+
+
+
+select distinct row_number() as property_type_id, property_type from "postgres"."raw"."listing"
+
+    ) sbq
+
+
+
+  );
+  
+  
+[0m22:42:27.007491 [debug] [Thread-2 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:42:27.010000 [debug] [Thread-2 (]: Using postgres connection "snapshot.bde_at3.lga_snapshot"
+[0m22:42:27.011000 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.lga_snapshot"} */
+
+      
+  
+    
+
+  create  table "postgres"."raw"."lga_snapshot"
+  
+  
+    as
+  
+  (
+    
+
+    select *,
+        md5(coalesce(cast(listing_neighbourhood as varchar ), '')
+         || '|' || coalesce(cast(listing_neighbourhood as varchar ), '')
+        ) as dbt_scd_id,
+        listing_neighbourhood as dbt_updated_at,
+        listing_neighbourhood as dbt_valid_from,
+        nullif(listing_neighbourhood, listing_neighbourhood) as dbt_valid_to
+    from (
+        
+
+
+
+select distinct listing_neighbourhood from "postgres"."raw"."listing"
+
+    ) sbq
+
+
+
+  );
+  
+  
+[0m22:42:27.017653 [debug] [Thread-3 (]: Postgres adapter: Postgres error: window function row_number requires an OVER clause
+LINE 27: select distinct row_number() as property_type_id, property_t...
+                         ^
+
+[0m22:42:27.017653 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: ROLLBACK
+[0m22:42:27.023661 [debug] [Thread-3 (]: Timing info for snapshot.bde_at3.property_type_snapshot (execute): 22:42:26.924082 => 22:42:27.023661
+[0m22:42:27.025273 [debug] [Thread-3 (]: On snapshot.bde_at3.property_type_snapshot: Close
+[0m22:42:27.027519 [debug] [Thread-1 (]: SQL status: SELECT 6 in 0.0 seconds
+[0m22:42:27.039024 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:42:27.039024 [debug] [Thread-4 (]: SQL status: BEGIN in 0.0 seconds
+[0m22:42:27.040023 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+        
+  
+    
+
+  create temporary table "host_snapshot__dbt_tmp224227036023"
+  
+  
+    as
+  
+  (
+    with snapshot_query as (
+
+        
+
+
+
+select distinct host_id, host_name from "postgres"."raw"."listing"
+
+
+    ),
+
+    snapshotted_data as (
+
+        select *,
+            host_id as dbt_unique_key
+
+        from "postgres"."raw"."host_snapshot"
+        where dbt_valid_to is null
+
+    ),
+
+    insertions_source_data as (
+
+        select
+            *,
+            host_id as dbt_unique_key,
+            host_name as dbt_updated_at,
+            host_name as dbt_valid_from,
+            nullif(host_name, host_name) as dbt_valid_to,
+            md5(coalesce(cast(host_id as varchar ), '')
+         || '|' || coalesce(cast(host_name as varchar ), '')
+        ) as dbt_scd_id
+
+        from snapshot_query
+    ),
+
+    updates_source_data as (
+
+        select
+            *,
+            host_id as dbt_unique_key,
+            host_name as dbt_updated_at,
+            host_name as dbt_valid_from,
+            host_name as dbt_valid_to
+
+        from snapshot_query
+    ),
+
+    insertions as (
+
+        select
+            'insert' as dbt_change_type,
+            source_data.*
+
+        from insertions_source_data as source_data
+        left outer join snapshotted_data on snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+        where snapshotted_data.dbt_unique_key is null
+           or (
+                snapshotted_data.dbt_unique_key is not null
+            and (
+                (snapshotted_data.dbt_valid_from < source_data.host_name)
+            )
+        )
+
+    ),
+
+    updates as (
+
+        select
+            'update' as dbt_change_type,
+            source_data.*,
+            snapshotted_data.dbt_scd_id
+
+        from updates_source_data as source_data
+        join snapshotted_data on snapshotted_data.dbt_unique_key = source_data.dbt_unique_key
+        where (
+            (snapshotted_data.dbt_valid_from < source_data.host_name)
+        )
+    )
+
+    select * from insertions
+    union all
+    select * from updates
+
+  );
+  
+    
+[0m22:42:27.041024 [debug] [Thread-4 (]: Using postgres connection "snapshot.bde_at3.room_type_snapshot"
+[0m22:42:27.041024 [debug] [Thread-3 (]: Database Error in snapshot property_type_snapshot (snapshots\property_type_snapshot.sql)
+  window function row_number requires an OVER clause
+  LINE 27: select distinct row_number() as property_type_id, property_t...
+                           ^
+  compiled Code at target\run\bde_at3\snapshots\property_type_snapshot.sql
+[0m22:42:27.043024 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.room_type_snapshot"} */
+
+      
+  
+    
+
+  create  table "postgres"."raw"."room_type_snapshot"
+  
+  
+    as
+  
+  (
+    
+
+    select *,
+        md5(coalesce(cast(room_type_id as varchar ), '')
+         || '|' || coalesce(cast(room_type_name as varchar ), '')
+        ) as dbt_scd_id,
+        room_type_name as dbt_updated_at,
+        room_type_name as dbt_valid_from,
+        nullif(room_type_name, room_type_name) as dbt_valid_to
+    from (
+        
+
+
+
+select distinct row_number() as room_type_id,  room_type from "postgres"."raw"."listing"
+
+    ) sbq
+
+
+
+  );
+  
+  
+[0m22:42:27.044024 [debug] [Thread-3 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a9d8d209-764a-4fcc-bb2b-dbd361e30199', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907E198F10>]}
+[0m22:42:27.047534 [error] [Thread-3 (]: 3 of 4 ERROR snapshotting raw.property_type_snapshot ........................... [[31mERROR[0m in 0.17s]
+[0m22:42:27.048534 [debug] [Thread-3 (]: Finished running node snapshot.bde_at3.property_type_snapshot
+[0m22:42:27.053534 [debug] [Thread-4 (]: Postgres adapter: Postgres error: window function row_number requires an OVER clause
+LINE 27: select distinct row_number() as room_type_id,  room_type fro...
+                         ^
+
+[0m22:42:27.056043 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: ROLLBACK
+[0m22:42:27.063047 [debug] [Thread-4 (]: Timing info for snapshot.bde_at3.room_type_snapshot (execute): 22:42:26.925586 => 22:42:27.062046
+[0m22:42:27.063047 [debug] [Thread-4 (]: On snapshot.bde_at3.room_type_snapshot: Close
+[0m22:42:27.065046 [debug] [Thread-4 (]: Database Error in snapshot room_type_snapshot (snapshots\room_type_snapshot.sql)
+  window function row_number requires an OVER clause
+  LINE 27: select distinct row_number() as room_type_id,  room_type fro...
+                           ^
+  compiled Code at target\run\bde_at3\snapshots\room_type_snapshot.sql
+[0m22:42:27.066403 [debug] [Thread-4 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a9d8d209-764a-4fcc-bb2b-dbd361e30199', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907E1B6090>]}
+[0m22:42:27.066403 [error] [Thread-4 (]: 4 of 4 ERROR snapshotting raw.room_type_snapshot ............................... [[31mERROR[0m in 0.19s]
+[0m22:42:27.067403 [debug] [Thread-4 (]: Finished running node snapshot.bde_at3.room_type_snapshot
+[0m22:42:27.209882 [debug] [Thread-2 (]: SQL status: SELECT 29 in 0.0 seconds
+[0m22:42:27.225404 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: COMMIT
+[0m22:42:27.225907 [debug] [Thread-2 (]: Using postgres connection "snapshot.bde_at3.lga_snapshot"
+[0m22:42:27.225907 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: COMMIT
+[0m22:42:27.236131 [debug] [Thread-2 (]: SQL status: COMMIT in 0.0 seconds
+[0m22:42:27.237132 [debug] [Thread-2 (]: Timing info for snapshot.bde_at3.lga_snapshot (execute): 22:42:26.916082 => 22:42:27.236131
+[0m22:42:27.237132 [debug] [Thread-2 (]: On snapshot.bde_at3.lga_snapshot: Close
+[0m22:42:27.238131 [debug] [Thread-2 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a9d8d209-764a-4fcc-bb2b-dbd361e30199', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907E2A2710>]}
+[0m22:42:27.238131 [info ] [Thread-2 (]: 2 of 4 OK snapshotted raw.lga_snapshot ......................................... [[32mSELECT 29[0m in 0.36s]
+[0m22:42:27.239267 [debug] [Thread-2 (]: Finished running node snapshot.bde_at3.lga_snapshot
+[0m22:42:27.529003 [debug] [Thread-1 (]: SQL status: SELECT 4 in 0.0 seconds
+[0m22:42:27.539553 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:42:27.539553 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot__dbt_tmp224227036023'
+        
+      order by ordinal_position
+
+  
+[0m22:42:27.552124 [debug] [Thread-1 (]: SQL status: SELECT 8 in 0.0 seconds
+[0m22:42:27.555125 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:42:27.555628 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from "postgres".INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot'
+        
+        and table_schema = 'raw'
+        
+      order by ordinal_position
+
+  
+[0m22:42:27.567936 [debug] [Thread-1 (]: SQL status: SELECT 6 in 0.0 seconds
+[0m22:42:27.570169 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:42:27.571173 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot__dbt_tmp224227036023'
+        
+      order by ordinal_position
+
+  
+[0m22:42:27.582750 [debug] [Thread-1 (]: SQL status: SELECT 8 in 0.0 seconds
+[0m22:42:27.583755 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:42:27.585258 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from "postgres".INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot'
+        
+        and table_schema = 'raw'
+        
+      order by ordinal_position
+
+  
+[0m22:42:27.596281 [debug] [Thread-1 (]: SQL status: SELECT 6 in 0.0 seconds
+[0m22:42:27.601281 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:42:27.602281 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      select
+          column_name,
+          data_type,
+          character_maximum_length,
+          numeric_precision,
+          numeric_scale
+
+      from INFORMATION_SCHEMA.columns
+      where table_name = 'host_snapshot__dbt_tmp224227036023'
+        
+      order by ordinal_position
+
+  
+[0m22:42:27.612325 [debug] [Thread-1 (]: SQL status: SELECT 8 in 0.0 seconds
+[0m22:42:27.617627 [debug] [Thread-1 (]: Writing runtime sql for node "snapshot.bde_at3.host_snapshot"
+[0m22:42:27.617627 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:42:27.618809 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: /* {"app": "dbt", "dbt_version": "1.6.6", "profile_name": "bde_at3", "target_name": "dev", "node_id": "snapshot.bde_at3.host_snapshot"} */
+
+      update "postgres"."raw"."host_snapshot"
+    set dbt_valid_to = DBT_INTERNAL_SOURCE.dbt_valid_to
+    from "host_snapshot__dbt_tmp224227036023" as DBT_INTERNAL_SOURCE
+    where DBT_INTERNAL_SOURCE.dbt_scd_id::text = "postgres"."raw"."host_snapshot".dbt_scd_id::text
+      and DBT_INTERNAL_SOURCE.dbt_change_type::text in ('update'::text, 'delete'::text)
+      and "postgres"."raw"."host_snapshot".dbt_valid_to is null;
+
+    insert into "postgres"."raw"."host_snapshot" ("host_id", "host_name", "dbt_updated_at", "dbt_valid_from", "dbt_valid_to", "dbt_scd_id")
+    select DBT_INTERNAL_SOURCE."host_id",DBT_INTERNAL_SOURCE."host_name",DBT_INTERNAL_SOURCE."dbt_updated_at",DBT_INTERNAL_SOURCE."dbt_valid_from",DBT_INTERNAL_SOURCE."dbt_valid_to",DBT_INTERNAL_SOURCE."dbt_scd_id"
+    from "host_snapshot__dbt_tmp224227036023" as DBT_INTERNAL_SOURCE
+    where DBT_INTERNAL_SOURCE.dbt_change_type::text = 'insert'::text;
+
+  
+[0m22:42:27.636345 [debug] [Thread-1 (]: SQL status: INSERT 0 2 in 0.0 seconds
+[0m22:42:27.637346 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: COMMIT
+[0m22:42:27.638346 [debug] [Thread-1 (]: Using postgres connection "snapshot.bde_at3.host_snapshot"
+[0m22:42:27.638346 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: COMMIT
+[0m22:42:27.646359 [debug] [Thread-1 (]: SQL status: COMMIT in 0.0 seconds
+[0m22:42:27.649358 [debug] [Thread-1 (]: Timing info for snapshot.bde_at3.host_snapshot (execute): 22:42:26.890639 => 22:42:27.649358
+[0m22:42:27.649358 [debug] [Thread-1 (]: On snapshot.bde_at3.host_snapshot: Close
+[0m22:42:27.650358 [debug] [Thread-1 (]: Sending event: {'category': 'dbt', 'action': 'run_model', 'label': 'a9d8d209-764a-4fcc-bb2b-dbd361e30199', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907E271410>]}
+[0m22:42:27.651358 [info ] [Thread-1 (]: 1 of 4 OK snapshotted raw.host_snapshot ........................................ [[32mINSERT 0 2[0m in 0.78s]
+[0m22:42:27.652359 [debug] [Thread-1 (]: Finished running node snapshot.bde_at3.host_snapshot
+[0m22:42:27.653358 [debug] [MainThread]: Using postgres connection "master"
+[0m22:42:27.653358 [debug] [MainThread]: On master: BEGIN
+[0m22:42:27.654358 [debug] [MainThread]: Opening a new connection, currently in state closed
+[0m22:42:27.726455 [debug] [MainThread]: SQL status: BEGIN in 0.0 seconds
+[0m22:42:27.727452 [debug] [MainThread]: On master: COMMIT
+[0m22:42:27.728452 [debug] [MainThread]: Using postgres connection "master"
+[0m22:42:27.728452 [debug] [MainThread]: On master: COMMIT
+[0m22:42:27.735450 [debug] [MainThread]: SQL status: COMMIT in 0.0 seconds
+[0m22:42:27.736666 [debug] [MainThread]: On master: Close
+[0m22:42:27.736666 [debug] [MainThread]: Connection 'master' was properly closed.
+[0m22:42:27.737976 [debug] [MainThread]: Connection 'list_postgres' was properly closed.
+[0m22:42:27.737976 [debug] [MainThread]: Connection 'list_postgres_raw' was properly closed.
+[0m22:42:27.739216 [debug] [MainThread]: Connection 'snapshot.bde_at3.host_snapshot' was properly closed.
+[0m22:42:27.739216 [debug] [MainThread]: Connection 'snapshot.bde_at3.lga_snapshot' was properly closed.
+[0m22:42:27.740220 [debug] [MainThread]: Connection 'snapshot.bde_at3.property_type_snapshot' was properly closed.
+[0m22:42:27.740220 [debug] [MainThread]: Connection 'snapshot.bde_at3.room_type_snapshot' was properly closed.
+[0m22:42:27.741219 [info ] [MainThread]: 
+[0m22:42:27.741219 [info ] [MainThread]: Finished running 4 snapshots in 0 hours 0 minutes and 1.24 seconds (1.24s).
+[0m22:42:27.742220 [debug] [MainThread]: Command end result
+[0m22:42:27.747716 [info ] [MainThread]: 
+[0m22:42:27.747716 [info ] [MainThread]: [31mCompleted with 2 errors and 0 warnings:[0m
+[0m22:42:27.748715 [info ] [MainThread]: 
+[0m22:42:27.748715 [error] [MainThread]:   Database Error in snapshot property_type_snapshot (snapshots\property_type_snapshot.sql)
+  window function row_number requires an OVER clause
+  LINE 27: select distinct row_number() as property_type_id, property_t...
+                           ^
+  compiled Code at target\run\bde_at3\snapshots\property_type_snapshot.sql
+[0m22:42:27.748715 [info ] [MainThread]: 
+[0m22:42:27.749716 [error] [MainThread]:   Database Error in snapshot room_type_snapshot (snapshots\room_type_snapshot.sql)
+  window function row_number requires an OVER clause
+  LINE 27: select distinct row_number() as room_type_id,  room_type fro...
+                           ^
+  compiled Code at target\run\bde_at3\snapshots\room_type_snapshot.sql
+[0m22:42:27.749716 [info ] [MainThread]: 
+[0m22:42:27.749716 [info ] [MainThread]: Done. PASS=2 WARN=0 ERROR=2 SKIP=0 TOTAL=4
+[0m22:42:27.751173 [debug] [MainThread]: Command `dbt snapshot` failed at 22:42:27.751173 after 1.42 seconds
+[0m22:42:27.751173 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907DFE6510>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907739A410>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001907DE14250>]}
+[0m22:42:27.752177 [debug] [MainThread]: Flushing usage events

@@ -3,12 +3,12 @@
 {{
                 config(
                     target_schema = 'raw',
-                    strategy = 'check',
-                    unique_key = 'lga_code'
-                    check_cols = ['lga_code', 'lga_name']
+                    strategy = 'timestamp',
+                    unique_key = 'listing_neighbourhood',
+                    updated_at = 'listing_neighbourhood'
                 )
 }}
 
-select * from {{source('raw', 'lga_code')}}
+select distinct listing_neighbourhood from {{source('raw', 'listing')}}
 
 {% endsnapshot %}
