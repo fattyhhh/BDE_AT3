@@ -7,6 +7,6 @@ sources:
     tables:
       - name: census_g01
       - name: census_g02
-      - name: lag_code
+      - name: lga_code
       - name: lga_suburb
       - name: listing

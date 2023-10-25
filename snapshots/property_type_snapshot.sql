@@ -4,11 +4,11 @@
                 config(
                     target_schema = 'raw',
                     strategy = 'timestamp',
-                    unique_key = 'property_type_id',
-                    updated_at = 'property_type_name'
+                    unique_key = 'property_type',
+                    updated_at = 'scraped_date'
                 )
 }}
 
-select distinct row_number() as property_type_id, property_type from {{source('raw', 'listing')}}
+select property_type, min(scraped_date) as scraped_date from {{source('raw', 'listing')}} group by property_type
 
 {% endsnapshot %}

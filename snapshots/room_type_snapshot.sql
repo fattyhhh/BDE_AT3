@@ -4,11 +4,11 @@
                 config(
                     target_schema = 'raw',
                     strategy = 'timestamp',
-                    unique_key = 'room_type_id',
-                    updated_at = 'room_type_name'
+                    unique_key = 'room_type',
+                    updated_at = 'scraped_date'
                 )
 }}
 
-select distinct row_number() as room_type_id,  room_type from {{source('raw', 'listing')}}
+select room_type, min(scraped_date) as scraped_date from {{source('raw', 'listing')}} group by room_type
 
 {% endsnapshot %}

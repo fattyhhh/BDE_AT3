@@ -5,10 +5,10 @@
                     target_schema = 'raw',
                     strategy = 'timestamp',
                     unique_key = 'host_id',
-                    updated_at =  'host_name'
+                    updated_at = 'scraped_date'
                 )
 }}
 
-select distinct host_id, host_name from {{ source('raw', 'listing')}}
-
+select host_id, host_name, host_since, host_is_superhost, min(scraped_date) as scraped_date from {{ source('raw', 'listing')}} group by host_id, host_name, host_since, host_is_superhost
+ 
 {% endsnapshot %}

@@ -12,18 +12,18 @@
     
 
     select *,
-        md5(coalesce(cast(property_type_id as varchar ), '')
-         || '|' || coalesce(cast(property_type_name as varchar ), '')
+        md5(coalesce(cast(property_type as varchar ), '')
+         || '|' || coalesce(cast(scraped_date as varchar ), '')
         ) as dbt_scd_id,
-        property_type_name as dbt_updated_at,
-        property_type_name as dbt_valid_from,
-        nullif(property_type_name, property_type_name) as dbt_valid_to
+        scraped_date as dbt_updated_at,
+        scraped_date as dbt_valid_from,
+        nullif(scraped_date, scraped_date) as dbt_valid_to
     from (
         
 
 
 
-select distinct row_number() as property_type_id, property_type from "postgres"."raw"."listing"
+select property_type, min(scraped_date) as scraped_date from "postgres"."raw"."listing" group by property_type
 
     ) sbq
 
